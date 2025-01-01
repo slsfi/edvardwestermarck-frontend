@@ -1,14 +1,14 @@
 {
-  "name": "sls-digital-edition-frontend",
+  "name": "dev-westermarck.sls.fi",
   "version": "1.5.5",
-  "description": "Angular frontend app for the SLS Digital Edition Platform",
-  "homepage": "https://github.com/slsfi/digital-edition-frontend-ng#readme",
+  "description": "Frontend of dev-westermarck.sls.fi based on the Angular web app for the SLS Digital Edition Platform",
+  "homepage": "https://github.com/slsfi/edvardwestermarck-frontend#readme",
   "license": "MIT",
   "private": true,
   "scripts": {
     "ng": "ng",
     "start": "ng serve --configuration=development,sv",
-    "start:fi": "ng serve --configuration=development,fi",
+    "start:en": "ng serve --configuration=development,en",
     "extract-i18n": "ng extract-i18n --sort idAsc",
     "generate-sitemap": "node ./prebuild-generate-sitemap.js",
     "generate-static-collection-menus": "node ./prebuild-generate-static-collection-menus.js",

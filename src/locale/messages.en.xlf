@@ -1539,19 +1539,19 @@
     <unit id="Site.MetaDescription.Home">
       <segment state="initial">
         <source>En generell beskrivning av webbplatsen för sökmotorer.</source>
-        <target>A general description of the website for search engines.</target>
+        <target>The research of Edvard Westermarck.</target>
       </segment>
     </unit>
     <unit id="Site.Subtitle">
       <segment state="initial">
         <source>Webbplatsens undertitel</source>
-        <target>Website subtitle</target>
+        <target></target>
       </segment>
     </unit>
     <unit id="Site.Title">
       <segment state="initial">
         <source>Webbplatsens titel</source>
-        <target>Website title</target>
+        <target>Edvard Westermarck</target>
       </segment>
     </unit>
     <unit id="TopMenu.About">
