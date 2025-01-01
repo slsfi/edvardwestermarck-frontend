@@ -12,9 +12,9 @@
       "i18n": {
         "sourceLocale": "aa",
         "locales": {
-          "fi": {
-            "baseHref": "fi/",
-            "translation": "src/locale/messages.fi.xlf"
+          "en": {
+            "baseHref": "en/",
+            "translation": "src/locale/messages.en.xlf"
           },
           "sv": {
             "baseHref": "sv/",
@@ -26,7 +26,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "localize": ["sv", "fi"],
+            "localize": ["sv", "en"],
             "outputPath": "dist/app/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -101,10 +101,10 @@
             "ci": {
               "progress": false
             },
-            "fi": {
+            "en": {
               "deleteOutputPath": false,
               "localize": [
-                "fi"
+                "en"
               ]
             },
             "sv": {
@@ -125,8 +125,8 @@
             "development": {
               "buildTarget": "app:build:development"
             },
-            "fi": {
-              "buildTarget": "app:build:development,fi"
+            "en": {
+              "buildTarget": "app:build:development,en"
             },
             "sv": {
               "buildTarget": "app:build:development,sv"
@@ -238,9 +238,9 @@
               ],
               "deleteOutputPath": false
             },
-            "fi": {
+            "en": {
               "localize": [
-                "fi"
+                "en"
               ],
               "deleteOutputPath": false
             }
@@ -285,9 +285,9 @@
               ],
               "discoverRoutes": false
             },
-            "fi": {
-              "browserTarget": "app:build:production,fi",
-              "serverTarget": "app:server:production,fi",
+            "en": {
+              "browserTarget": "app:build:production,en",
+              "serverTarget": "app:server:production,en",
               "routes": [
                 "/"
               ],

@@ -2,15 +2,15 @@ type Config = { [key: string]: any }
 
 export const config: Config = {
   app: {
-    siteURLOrigin: "https://topelius.sls.fi",
-    projectNameDB: "topelius",
-    projectId: 10,
-    backendBaseURL: "https://api.sls.fi/digitaledition",
+    siteURLOrigin: "https://dev-westermarck.sls.fi",
+    projectNameDB: "edvardwestermarck",
+    projectId: 62,
+    backendBaseURL: "https://granska-api.sls.fi/digitaledition",
     alternateFacsimileBaseURL: "",
     i18n: {
       languages: [
         { code: "sv", label: "Svenska", region: "FI" },
-        { code: "fi", label: "Suomi", region: "FI" }
+        { code: "en", label: "English", region: "GB" }
       ],
       defaultLanguage: "sv",
       multilingualCollectionTableOfContents: false,
@@ -25,8 +25,8 @@ export const config: Config = {
           altText: "alt-text",
           URL: "assets/images/home-page-banner.jpg"
         },
-        fi: {
-          altText: "alt-teksti",
+        en: {
+          altText: "alt-text",
           URL: "assets/images/home-page-banner.jpg"
         }
       }
@@ -40,96 +40,40 @@ export const config: Config = {
     }
   },
   collections: {
-    addTEIClassNames: true,
-    replaceImageAssetsPaths: true,
-    enableLegacyIDs: true,
+    addTEIClassNames: false,
+    replaceImageAssetsPaths: false,
+    enableLegacyIDs: false,
     enableMathJax: false,
-    firstTextItem: {
-      216: "216_20280", 219: "219_19443", 220: "220_20122",
-      218: "218_20230_ch2", 210: "210_20548_ch1", 208: "208_18466_ch4",
-      207: "207_18464_ch1", 214: "214_20240_ch1", 203: "203_20217_ch1",
-      213: "213_18465_ch1", 202: "202_18467_ch1", 199: "199_18284",
-      221: "221_21422", 206: "206_20212_ch1", 201: "201_18471",
-      211: "211_20128", 200: "200_19870", 205: "205_20227_ch1",
-      215: "215_20568", 217: "217_20559_ch1", 204: "204_20322",
-      212: "212_20323", 209: "209_20479"
-    },
+    firstTextItem: {},
     frontMatterPages: {
-      cover: true,
-      title: true,
-      foreword: true,
-      introduction: true
+      cover: false,
+      title: false,
+      foreword: false,
+      introduction: false
     },
     highlightSearchMatches: true,
-    inlineIllustrations: [206],
-    mediaCollectionMappings: { 214: 44, 206: 19, 218: 19 },
+    inlineIllustrations: [],
+    mediaCollectionMappings: {},
     order: [
-      [216, 219, 220, 218, 210, 208, 207, 214, 203, 213,
-        202, 199, 221, 206, 201, 211, 200, 205, 215, 217,
-        204, 212, 209]
+      []
     ]
   },
-  ebooks: [
-    {
-      title: "Bröd och bot",
-      filename: "norrback-brod-och-bot.epub",
-      externalFileURL: "",
-      coverURL: "",
-      downloadOptions: [
-        {
-          url: "https://www.sls.fi/sv/utgivning/historiska-recept",
-          label: ""
-        }
-      ]
-    },
-    {
-      title: "Marriage Conditions in a Palestinian Village I (epub)",
-      filename: "marriage-conditions-1.epub",
-      externalFileURL: "https://api.sls.fi/digitaledition/granqvist/files/30/epub/30_11672_Marriage_Conditions_1.epub/",
-      coverURL: "",
-      downloadOptions: [
-        {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/30/epub/30_11672_Marriage_Conditions_1.epub/",
-          label: "EPUB"
-        },
-        {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/30/pdf/30_11672_Marriage_Conditions_1.pdf/",
-          label: "PDF"
-        }
-      ]
-    },
-    {
-      title: "Marriage Conditions in a Palestinian Village I (pdf)",
-      filename: "marriage-conditions-1.pdf",
-      externalFileURL: "https://api.sls.fi/digitaledition/granqvist/files/30/pdf/30_11672_Marriage_Conditions_1.pdf/",
-      coverURL: "",
-      downloadOptions: [
-        {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/30/epub/30_11672_Marriage_Conditions_1.epub/",
-          label: "EPUB"
-        },
-        {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/30/pdf/30_11672_Marriage_Conditions_1.pdf/",
-          label: "PDF"
-        }
-      ]
-    }
-  ],
+  ebooks: [],
   page: {
     about: {
-      initialPageNode: "01-01"
+      initialPageNode: "01"
     },
     elasticSearch: {
       enableFilters: true,
       enableSortOptions: true,
       filterGroupsOpenByDefault: ["Years", "Type", "Genre", "Collection"],
       hitsPerPage: 15,
-      indices: ["topelius"],
+      indices: ["edvardwestermarck"],
       openReadingTextWithComments: false,
       textHighlightFragmentSize: 150,
       textHighlightType: "fvh",
       textTitleHighlightType: "fvh",
-      typeFilterGroupOptions: ["est", "com", "var", "inl", "tit", "fore"],
+      typeFilterGroupOptions: ["est", "ms"],
       fixedFilters: [
         {
           terms: {
@@ -205,14 +149,14 @@ export const config: Config = {
     home: {
       bannerImage: {
         altTexts: {
-          sv: "Porträtt av Zacharias Topelius",
-          fi: "Zacharias Topeliuksen muotokuva"
+          sv: "Porträtt av Edvard Westermarck",
+          en: "Portrait of Edvard Westermarck"
         },
         intrinsicSize: {
           height: null,
           width: null
         },
-        orientationPortrait: true,
+        orientationPortrait: false,
         alternateSources: [],
         URL: "assets/images/home-page-banner-portrait.jpg"
       },
@@ -265,31 +209,31 @@ export const config: Config = {
       showURNButton: true
     },
     text: {
-      defaultViews: ["readingtext", "comments", "facsimiles"],
-      defaultViewOptions: ["comments"],
+      defaultViews: ["readingtext", "facsimiles"],
+      defaultViewOptions: [],
       showTextDownloadButton: true,
       showURNButton: true,
       showViewOptionsButton: true,
       viewOptions: {
-        comments: true,
-        personInfo: true,
-        placeInfo: true,
+        comments: false,
+        personInfo: false,
+        placeInfo: false,
         emendations: true,
         normalisations: true,
-        workInfo: true,
+        workInfo: false,
         abbreviations: true,
         paragraphNumbering: true,
         pageBreakOriginal: true,
-        pageBreakEdition: true
+        pageBreakEdition: false
       },
       viewTypes: {
         showAll: true,
         readingtext: true,
-        comments: true,
+        comments: false,
         facsimiles: true,
         manuscripts: true,
-        variants: true,
-        illustrations: true,
+        variants: false,
+        illustrations: false,
         legend: true,
         metadata: false
       }
@@ -302,8 +246,8 @@ export const config: Config = {
   },
   component: {
     collectionSideMenu: {
-      sortableCollectionsAlphabetical: ["211", "215", "219", "220"],
-      sortableCollectionsChronological: ["215", "219", "220"],
+      sortableCollectionsAlphabetical: [],
+      sortableCollectionsChronological: [],
       sortableCollectionsCategorical: [],
       categoricalSortingPrimaryKey: "",
       categoricalSortingSecondaryKey: ""
@@ -314,7 +258,7 @@ export const config: Config = {
       mediaCollectionCoverURL: "",
       mediaCollectionCoverAltTexts: {
         sv: "Alt-text",
-        fi: "Alt-teksti"
+        en: "Alt text"
       },
       showTitles: true
     },
@@ -331,12 +275,12 @@ export const config: Config = {
       items: {
         home: false,
         about: true,
-        ebooks: true,
+        ebooks: false,
         collections: true,
-        mediaCollections: true,
+        mediaCollections: false,
         indexKeywords: false,
-        indexPersons: true,
-        indexPlaces: true,
+        indexPersons: false,
+        indexPlaces: false,
         indexWorks: false
       }
     },
