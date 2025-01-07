@@ -6,7 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 
 
-## [Unreleased]
+## Unreleased
+
+
+
+## [1.5.5-dev.1] – 2025-01-07
+
+### Changed
+
+- Set up basic configuration of development frontend. ([1b489aa](https://github.com/slsfi/edvardwestermarck-frontend/commit/1b489aa54964446feb0f8b77b0f00817216d33d8), [c85d675](https://github.com/slsfi/edvardwestermarck-frontend/commit/c85d67572360b94ab957002e94b9c8658223dd80))
 
 
 
@@ -519,3 +527,5 @@ siteLogoDimensions: {
 [1.0.2]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
+
+[1.5.5-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/releases/tag/1.5.5-dev.1
