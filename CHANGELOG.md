@@ -10,11 +10,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 
 
-## [1.5.6-dev.1] – 2025-02-03
+## [1.5.7-dev.1] – 2025-03-17
 
 ### Changed
 
-- Merge release [`v1.5.6`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.6) from upstream, original repository into `development` branch. ([10bca24](https://github.com/slsfi/edvardwestermarck-frontend/commit/10bca24d0b7aec5a711a923c44e708029891d21a))
+- Merge release [`v1.5.7`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.7) from upstream, original repository into `development` branch. ([4b70792](https://github.com/slsfi/edvardwestermarck-frontend/commit/4b70792a9c76c058278d512ef36819f6e2bcf832))
 
 
 
@@ -33,6 +33,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - Deps (dev): update `jasmine-core` to 5.6.0. ([7701f8a](https://github.com/slsfi/digital-edition-frontend-ng/commit/7701f8a2d14e940dc9b1f45d3bad969378b237ea))
 - Deps (dev): update `ng-extract-i18n-merge` to 2.14.3. ([d144455](https://github.com/slsfi/digital-edition-frontend-ng/commit/d1444558eaaf7bfd425e6a007f9a4f6cf74f3e83))
 - Deps (dev): update `typescript` to 5.8.2. ([4c44ed8](https://github.com/slsfi/digital-edition-frontend-ng/commit/4c44ed813347a88619d7a6f2138d5611a7d6824a))
+
+
+
+## [1.5.6-dev.1] – 2025-02-03
+
+### Changed
+
+- Merge release [`v1.5.6`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.6) from upstream, original repository into `development` branch. ([10bca24](https://github.com/slsfi/edvardwestermarck-frontend/commit/10bca24d0b7aec5a711a923c44e708029891d21a))
 
 
 
@@ -569,5 +577,6 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.5.7-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.6-dev.1...1.5.7-dev.1
 [1.5.6-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.5-dev.1...1.5.6-dev.1
 [1.5.5-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/releases/tag/1.5.5-dev.1
