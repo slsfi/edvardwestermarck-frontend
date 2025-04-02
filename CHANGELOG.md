@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Added
+
+- New collections to config and edited translations.
+
 
 
 ## [1.5.7-dev.1] – 2025-03-17

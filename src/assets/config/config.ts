@@ -44,7 +44,7 @@ export const config: Config = {
     replaceImageAssetsPaths: false,
     enableLegacyIDs: false,
     enableMathJax: false,
-    firstTextItem: {},
+    firstTextItem: { 2574: "2574_86629", 2576: "2576_87082" },
     frontMatterPages: {
       cover: false,
       title: false,
@@ -55,7 +55,8 @@ export const config: Config = {
     inlineIllustrations: [],
     mediaCollectionMappings: {},
     order: [
-      []
+      [2574],
+      [2576]
     ]
   },
   ebooks: [],
