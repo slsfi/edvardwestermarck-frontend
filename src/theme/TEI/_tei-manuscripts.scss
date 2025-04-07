@@ -461,16 +461,6 @@ div.tei {
       cursor: help;
     }
 
-    span.underline {
-      border-bottom: 1px solid black;
-      font-style: normal;
-    }
-
-    span.underline2 {
-      border-bottom: 3px double black;
-      font-style: normal;
-      text-decoration: none;
-    }
 
     /* Is this used in ms? */
     span.lemma {
@@ -483,6 +473,7 @@ div.tei {
       text-indent: 1.7647em;
     }
 
+    /*
     h4 {
       margin: 1em 0 .5em !important;
     }
@@ -492,6 +483,7 @@ div.tei {
       font-variant: normal;
       line-height: 1.45;
     }
+      */
   }
 
   p.teiManuscript.strofe[class*="lg"] {
@@ -511,29 +503,6 @@ manuscripts {
     img.teiManuscript.doodle {
       cursor: default;
       display: inline-block !important;
-    }
-
-    span.uppercase {
-      text-transform: uppercase;
-      font-variant: normal;
-    }
-
-    span.dashUnderline {
-      border-bottom: 1px dashed black;
-    }
-
-    .encircled {
-      border: 1px solid gray;
-    }
-
-    .encreasedSize {
-      font-size: 120%;
-    }
-
-    p.underline,
-    h3.underline {
-      font-style: normal;
-      text-decoration: underline;
     }
 
     img {
