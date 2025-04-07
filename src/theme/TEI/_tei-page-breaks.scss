@@ -4,95 +4,88 @@
  */
 @use "sass:math";
 
-.pb_orig,
-.pb_edition {
+.pb {
+  &.edition,
+  &.orig {
     display: none;
+  }
 }
 
-div.tei.show_pageBreakOriginal .pb_orig,
-div.tei.show_pageBreakEdition .pb_edition {
-    font-family: var(--font-stack-app-base);
-    line-height: 1;
-    display: inline;
+div.tei.show_pageBreakEdition .pb.edition,
+div.tei.show_pageBreakOriginal .pb.orig {
+  font-family: var(--font-stack-app-base);
+  line-height: 1;
+  display: revert;
 }
 
-div.tei.show_pageBreakOriginal .pb_orig {
-    color: var(--pageBreakOriginal-color, #b32fa0);
+div.tei.show_pageBreakEdition .pb.edition {
+  color: var(--pageBreakEdition-color, #8f6b28);
 }
 
-div.tei.show_pageBreakEdition .pb_edition {
-    color: var(--pageBreakEdition-color, #8f6b28);
+div.tei.show_pageBreakOriginal .pb.orig {
+  color: var(--pageBreakOriginal-color, #b32fa0);
 }
 
 /* Size of page numberings at different font sizes. */
-.miniFontSize div.tei.show_pageBreakOriginal,
-.miniFontSize div.tei.show_pageBreakEdition {
-  .pb_orig,
-  .pb_edition {
+.miniFontSize .pb {
+  &.edition,
+  &.orig {
     font-size: math.ceil(0.875 * $text-fontsize-mini);
   }
 }
 
-.tinyFontSize div.tei.show_pageBreakOriginal,
-.tinyFontSize div.tei.show_pageBreakEdition {
-  .pb_orig,
-  .pb_edition {
+.tinyFontSize .pb {
+  &.edition,
+  &.orig {
     font-size: math.ceil(0.875 * $text-fontsize-tiny);
   }
 }
 
-.xxxsmallFontSize div.tei.show_pageBreakOriginal,
-.xxxsmallFontSize div.tei.show_pageBreakEdition {
-  .pb_orig,
-  .pb_edition {
+.xxxsmallFontSize .pb {
+  &.edition,
+  &.orig {
     font-size: math.ceil(0.875 * $text-fontsize-xxxsmall);
   }
 }
 
-.xxsmallFontSize div.tei.show_pageBreakOriginal,
-.xxsmallFontSize div.tei.show_pageBreakEdition {
-  .pb_orig,
-  .pb_edition {
+.xxsmallFontSize .pb {
+  &.edition,
+  &.orig {
     font-size: math.ceil(0.875 * $text-fontsize-xxsmall);
   }
 }
 
-.xsmallFontSize div.tei.show_pageBreakOriginal,
-.xsmallFontSize div.tei.show_pageBreakEdition {
-  .pb_orig,
-  .pb_edition {
+.xsmallFontSize .pb {
+  &.edition,
+  &.orig {
     font-size: math.ceil(0.875 * $text-fontsize-xsmall);
   }
 }
 
-.smallFontSize div.tei.show_pageBreakOriginal,
-.smallFontSize div.tei.show_pageBreakEdition {
-  .pb_orig,
-  .pb_edition {
+.smallFontSize .pb {
+  &.edition,
+  &.orig {
     font-size: math.ceil(0.875 * $text-fontsize-small);
   }
 }
 
-.mediumFontSize div.tei.show_pageBreakOriginal,
-.mediumFontSize div.tei.show_pageBreakEdition {
-  .pb_orig,
-  .pb_edition {
+.mediumFontSize .pb {
+  &.edition,
+  &.orig {
     font-size: math.ceil(0.875 * $text-fontsize-medium);
   }
 }
 
-.largeFontSize div.tei.show_pageBreakOriginal,
-.largeFontSize div.tei.show_pageBreakEdition {
-  .pb_orig,
-  .pb_edition {
+.largeFontSize .pb {
+  &.edition,
+  &.orig {
     font-size: math.ceil(0.875 * $text-fontsize-large);
   }
 }
 
-.xlargeFontSize div.tei.show_pageBreakOriginal,
-.xlargeFontSize div.tei.show_pageBreakEdition {
-  .pb_orig,
-  .pb_edition {
+.xlargeFontSize .pb {
+  &.edition,
+  &.orig {
     font-size: math.ceil(0.875 * $text-fontsize-xlarge);
   }
 }

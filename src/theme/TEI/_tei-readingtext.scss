@@ -71,37 +71,43 @@ reading-text {
   div.tei {
     transition: padding-left linear 0.2s;
 
+    .deletion {
+      display: none;
+    }
+
     /*
     Tooltip triggers
     */
-    .unclear.tooltiptrigger,
-    .gap.tooltiptrigger,
-    .marginalia.tooltiptrigger,
-    .revision.tooltiptrigger,
-    .tooltiptrigger > .keyword_symbol,
     &.clickable-illustrations .est_figure_graphic {
       cursor: pointer;
     }
 
-    span.dashUnderline {
-      font-style: italic;
-      border-bottom: none;
+    .unclear.tooltiptrigger,
+    .gap.tooltiptrigger,
+    .marginalia.tooltiptrigger,
+    .revision.tooltiptrigger,
+    .tooltiptrigger > .keyword_symbol {
+      cursor: help;
     }
 
-    .encreasedSize {
-      font-style: italic;
-      font-size: 100%;
-    }
-
-    span.uppercase,
-    span.uppercaseDiary {
-      font-variant: small-caps;
-      text-transform: none;
-    }
-
+    /* OVERRIDES TO REND VALUES */
     .encircled {
-      font-style: italic;
       border: none;
+      font-style: italic;
+    }
+    .expanded {
+      font-style: italic;
+      letter-spacing: normal;
+    }
+    .larger {
+      font-size: 1em;
+      font-style: italic;
+    }
+    .underline,
+    .underlineDashed,
+    .underlineDouble {
+      font-style: italic;
+      text-decoration: none;
     }
 
     img.hide-illustration {
