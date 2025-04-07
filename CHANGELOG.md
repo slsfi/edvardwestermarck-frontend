@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [1.5.7-dev.3] – 2025-04-07
+
 ### Changed
 
-- Modernize TEI CSS.
-- Update config.
+- Modernize TEI CSS. ([8ca7a87](https://github.com/slsfi/edvardwestermarck-frontend/commit/8ca7a87960e2e5f5e31213c9019308431fb5c278))
+- Update config. ([3fd6f1f](https://github.com/slsfi/edvardwestermarck-frontend/commit/3fd6f1f80cb13d171269c18b8d43c3095f191e70))
 
 
 
@@ -590,6 +594,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.5.7-dev.3]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.2...1.5.7-dev.3
 [1.5.7-dev.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.1...1.5.7-dev.2
 [1.5.7-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.6-dev.1...1.5.7-dev.1
 [1.5.6-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.5-dev.1...1.5.6-dev.1
