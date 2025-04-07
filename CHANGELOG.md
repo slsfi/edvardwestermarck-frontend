@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [1.5.7-dev.4] – 2025-04-07
+
 ### Changed
 
-- Update CSS.
+- Update CSS. ([1dd379a](https://github.com/slsfi/edvardwestermarck-frontend/commit/1dd379afe532c30e3c2e721c6fd2ad3622cc9bb8))
 
 
 
@@ -598,6 +602,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.5.7-dev.4]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.3...1.5.7-dev.4
 [1.5.7-dev.3]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.2...1.5.7-dev.3
 [1.5.7-dev.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.1...1.5.7-dev.2
 [1.5.7-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.6-dev.1...1.5.7-dev.1
