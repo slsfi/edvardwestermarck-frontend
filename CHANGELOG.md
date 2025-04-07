@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Update CSS.
+
 
 
 ## [1.5.7-dev.3] – 2025-04-07
