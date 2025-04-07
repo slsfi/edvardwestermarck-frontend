@@ -44,7 +44,7 @@ export const config: Config = {
     replaceImageAssetsPaths: false,
     enableLegacyIDs: false,
     enableMathJax: false,
-    firstTextItem: { 2574: "2574_86629", 2576: "2576_87082" },
+    firstTextItem: { 2574: "2574_87079", 2576: "2576_87082" },
     frontMatterPages: {
       cover: false,
       title: false,
