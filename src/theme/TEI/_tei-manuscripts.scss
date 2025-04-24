@@ -109,18 +109,117 @@ div.tei img.teiManuscript.handSymbol {
 }
 
 div.tei {
-  .space {
-    color: #990202;
+  &.teiManuscript {
+    .tooltiptrigger.ttMs,
+    .tooltiptrigger.tooltipMs {
+      cursor: help;
+    }
+
+    p {
+      line-height: 2em;
+      position: relative;
+    }
+
+    img {
+      width: 0.9412em;
+      display: inline;
+    }
   }
 
-  .substitution {
-    color: #0000a1;
+  .add,
+  .addSpan {
+    color: #2929ca;
   }
 
-  .tei_substitution_zts {
-    color: #0000a1;
+  .hand {
+    color: #008100;
   }
 
+  .addAbove {
+    /* This will shift the text upwards without changing the height
+       of the line. */
+    position: relative;
+    top: -0.7059em;
+  }
+  .addSublinear {
+    /* This will shift the text downwards and change the height of the
+       line. The reason we don't use position:relative here is that
+       otherwise text above the line on the next line might overlap
+       with the sublinear text. */
+    vertical-align: -0.706em;
+  }
+
+  .subst {
+    color: #2929ca;
+    text-indent: 0;
+
+    /*
+    border-left: 2px solid #d00b0b;
+    border-right: 2px solid #d00b0b;
+    padding: 0 0.1177em;
+    */
+
+    /* Added text is above or below the line */
+    &.stack {
+      align-items: flex-start;
+      display: inline-flex;
+      flex-direction: column-reverse;
+      vertical-align: bottom;
+    }
+
+    &.sublinearStack {
+      flex-direction: column;
+      vertical-align: baseline;
+    }
+  }
+  .substDel {
+    color: initial;
+  }
+  .substAdd {
+    &.addAbove,
+    &.addSublinear {
+      bottom: -0.353em;
+      line-height: 1;
+      top: initial;
+      vertical-align: initial;
+    }
+  }
+
+  .altSeg {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    text-indent: 0;
+    vertical-align: bottom;
+
+    .addChoice {
+      bottom: -0.353em;
+      line-height: 1;
+      top: initial;
+    }
+  }
+
+  .deletion.hand,
+  .delSpanHand {
+    text-decoration-color: #008100;
+  }
+
+  .delSpan {
+    background-color: #c6c6c6;
+  }
+
+  .restore {
+    text-decoration: underline dashed #028202;
+  }
+
+  .transpMark {
+    color: #2929ca;
+    font-size: 0.9412em;
+    line-height: 0.5em;
+    vertical-align: 60%;
+  }
+
+  /*
   .alternative {
     position: relative;
   }
@@ -453,21 +552,6 @@ div.tei {
     top: -1.2em;
     left: 0;
   }
+    */
 
-  &.teiManuscript {
-    .tooltiptrigger.ttMs,
-    .tooltiptrigger.tooltipMs {
-      cursor: help;
-    }
-
-    p {
-      line-height: 180%;
-      position: relative;
-    }
-
-    img {
-      width: 0.9rem;
-      display: inline;
-    }
-  }
 }
