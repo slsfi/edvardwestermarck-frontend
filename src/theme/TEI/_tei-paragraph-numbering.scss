@@ -3,9 +3,11 @@
  * Styles for paragraph and line numberings.
  */
 
-.tei span.lNumber,
-.tei span.pNumber {
-  display: none;
+.tei span {
+  &.lNumber,
+  &.pNumber {
+    display: none;
+  }
 }
 
 .tei.show_paragraphNumbering span {
