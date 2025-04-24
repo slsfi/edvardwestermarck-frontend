@@ -8,9 +8,43 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [1.6.0-dev.1] – 2025-04-24
+
 ### Changed
 
-- Update CSS.
+- Update CSS. ([8e0d233](https://github.com/slsfi/edvardwestermarck-frontend/commit/8e0d2339294f345a08d76707433eece13b27ed2f))
+- Merge release [`v1.6.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.6.0) from upstream, original repository into `development` branch. ([4702fa0](https://github.com/slsfi/edvardwestermarck-frontend/commit/4702fa0dd92514ce8f3b5da7dd8fac147a67a143))
+
+
+
+## [1.6.0] – 2025-04-11
+
+### Added
+
+- Support for [GFM footnotes](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes) in Markdown on About-pages. ([02e314f](https://github.com/slsfi/digital-edition-frontend-ng/commit/02e314f5d10239843aca3ea9a61a485ab35b5ac9))
+
+### Changed
+
+- Truncate console error message when loading of static collection TOC fails. ([13eb19c](https://github.com/slsfi/digital-edition-frontend-ng/commit/13eb19c95829718e64c974c178114f8fbc284563))
+- Adjust CSS of Markdown content. ([9cb8e82](https://github.com/slsfi/digital-edition-frontend-ng/commit/9cb8e82b1690f5651852991360cb5c477ea09850))
+
+
+
+## [1.5.8] – 2025-04-11
+
+### Changed
+
+- Deps: update `@angular/cli` to 19.2.7 and `@angular/core` to 19.2.6. ([4ecd3b9](https://github.com/slsfi/digital-edition-frontend-ng/commit/4ecd3b9c59017cc37211b08d6ae7a5e7a3801f5f))
+- Deps: update `marked` to 15.0.8. ([30e1f6e](https://github.com/slsfi/digital-edition-frontend-ng/commit/30e1f6e5b1a965074319d09d5d3ed34b5d7ab2cd))
+- Deps (dev): update `@types/node` to 20.17.30. ([177a396](https://github.com/slsfi/digital-edition-frontend-ng/commit/177a39618fc32c71d10d320ec605538670336474))
+- Deps (dev): update `browser-sync` to 3.0.4. ([817a855](https://github.com/slsfi/digital-edition-frontend-ng/commit/817a855e38583e3bc2e747623ff3c000ca694311))
+- Deps (dev): update `typescript` to 5.8.3. ([3bb38ec](https://github.com/slsfi/digital-edition-frontend-ng/commit/3bb38eca71fb5f3473a3407692270eaa38f4ab19))
+
+### Fixed
+
+- Prebuild-scripts: handle 404 responses from API. ([e37f6ad](https://github.com/slsfi/digital-edition-frontend-ng/commit/e37f6ad6f1d28993dda3f4eaced45efecb31ae33))
 
 
 
@@ -44,36 +78,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Changed
 
 - Merge release [`v1.5.7`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.7) from upstream, original repository into `development` branch. ([4b70792](https://github.com/slsfi/edvardwestermarck-frontend/commit/4b70792a9c76c058278d512ef36819f6e2bcf832))
-
-
-
-
-## [1.6.0] – 2025-04-11
-
-### Added
-
-- Support for [GFM footnotes](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes) in Markdown on About-pages. ([02e314f](https://github.com/slsfi/digital-edition-frontend-ng/commit/02e314f5d10239843aca3ea9a61a485ab35b5ac9))
-
-### Changed
-
-- Truncate console error message when loading of static collection TOC fails. ([13eb19c](https://github.com/slsfi/digital-edition-frontend-ng/commit/13eb19c95829718e64c974c178114f8fbc284563))
-- Adjust CSS of Markdown content. ([9cb8e82](https://github.com/slsfi/digital-edition-frontend-ng/commit/9cb8e82b1690f5651852991360cb5c477ea09850))
-
-
-
-## [1.5.8] – 2025-04-11
-
-### Changed
-
-- Deps: update `@angular/cli` to 19.2.7 and `@angular/core` to 19.2.6. ([4ecd3b9](https://github.com/slsfi/digital-edition-frontend-ng/commit/4ecd3b9c59017cc37211b08d6ae7a5e7a3801f5f))
-- Deps: update `marked` to 15.0.8. ([30e1f6e](https://github.com/slsfi/digital-edition-frontend-ng/commit/30e1f6e5b1a965074319d09d5d3ed34b5d7ab2cd))
-- Deps (dev): update `@types/node` to 20.17.30. ([177a396](https://github.com/slsfi/digital-edition-frontend-ng/commit/177a39618fc32c71d10d320ec605538670336474))
-- Deps (dev): update `browser-sync` to 3.0.4. ([817a855](https://github.com/slsfi/digital-edition-frontend-ng/commit/817a855e38583e3bc2e747623ff3c000ca694311))
-- Deps (dev): update `typescript` to 5.8.3. ([3bb38ec](https://github.com/slsfi/digital-edition-frontend-ng/commit/3bb38eca71fb5f3473a3407692270eaa38f4ab19))
-
-### Fixed
-
-- Prebuild-scripts: handle 404 responses from API. ([e37f6ad](https://github.com/slsfi/digital-edition-frontend-ng/commit/e37f6ad6f1d28993dda3f4eaced45efecb31ae33))
 
 
 
@@ -637,6 +641,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.6.0-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.4...1.6.0-dev.1
 [1.5.7-dev.4]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.3...1.5.7-dev.4
 [1.5.7-dev.3]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.2...1.5.7-dev.3
 [1.5.7-dev.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.1...1.5.7-dev.2
