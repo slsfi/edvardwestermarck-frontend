@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [1.6.5-dev.1] – 2025-05-19
+
 ### Changed
 
-- Update to base version [`1.6.5`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.6.5) from upstream, original repository.
-- Update CSS.
+- Update to base version [`1.6.5`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.6.5) from upstream, original repository. ([8b41a49](https://github.com/slsfi/edvardwestermarck-frontend/commit/8b41a49ccc1fd4e537fef17bbd6184f201e2d910))
+- Update CSS. ([9563492](https://github.com/slsfi/edvardwestermarck-frontend/commit/956349266dd6c5dd069cb44680991499d38add99))
 
 
 
@@ -725,6 +729,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.6.5-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.6.0-dev.1...1.6.5-dev.1
 [1.6.0-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.4...1.6.0-dev.1
 [1.5.7-dev.4]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.3...1.5.7-dev.4
 [1.5.7-dev.3]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.2...1.5.7-dev.3
