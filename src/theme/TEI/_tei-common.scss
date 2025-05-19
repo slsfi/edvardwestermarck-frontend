@@ -96,7 +96,8 @@ div.tei {
   .byline,
   .dateline,
   .salute,
-  .signed {
+  .signed,
+  .lg {
     text-indent: 0;
   }
 
@@ -107,6 +108,14 @@ div.tei {
 
   .signed {
     text-align: right;
+  }
+
+  .lg,
+  .poem.incorp .lg {
+    margin: 1em 0;
+  }
+  .prose .lg {
+    margin-left: 2.5em;
   }
 
   blockquote {
