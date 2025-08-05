@@ -3,6 +3,7 @@
  * Styles for page breaks, both original and edition.
  */
 @use "sass:math";
+@use "../sass_variables" as vars;
 
 .pb {
   &.edition,
@@ -39,65 +40,74 @@ div.tei.show_pageBreakOriginal .pb.orig {
 }
 
 /* Size of page numberings at different font sizes. */
-.miniFontSize .pb {
-  &.edition,
-  &.orig {
-    font-size: math.ceil(0.875 * $text-fontsize-mini);
+.miniFontSize div.tei.show_pageBreakOriginal,
+.miniFontSize div.tei.show_pageBreakEdition {
+  .pb_orig,
+  .pb_edition {
+    font-size: math.ceil(0.875 * vars.$text-fontsize-mini);
   }
 }
 
-.tinyFontSize .pb {
-  &.edition,
-  &.orig {
-    font-size: math.ceil(0.875 * $text-fontsize-tiny);
+.tinyFontSize div.tei.show_pageBreakOriginal,
+.tinyFontSize div.tei.show_pageBreakEdition {
+  .pb_orig,
+  .pb_edition {
+    font-size: math.ceil(0.875 * vars.$text-fontsize-tiny);
   }
 }
 
-.xxxsmallFontSize .pb {
-  &.edition,
-  &.orig {
-    font-size: math.ceil(0.875 * $text-fontsize-xxxsmall);
+.xxxsmallFontSize div.tei.show_pageBreakOriginal,
+.xxxsmallFontSize div.tei.show_pageBreakEdition {
+  .pb_orig,
+  .pb_edition {
+    font-size: math.ceil(0.875 * vars.$text-fontsize-xxxsmall);
   }
 }
 
-.xxsmallFontSize .pb {
-  &.edition,
-  &.orig {
-    font-size: math.ceil(0.875 * $text-fontsize-xxsmall);
+.xxsmallFontSize div.tei.show_pageBreakOriginal,
+.xxsmallFontSize div.tei.show_pageBreakEdition {
+  .pb_orig,
+  .pb_edition {
+    font-size: math.ceil(0.875 * vars.$text-fontsize-xxsmall);
   }
 }
 
-.xsmallFontSize .pb {
-  &.edition,
-  &.orig {
-    font-size: math.ceil(0.875 * $text-fontsize-xsmall);
+.xsmallFontSize div.tei.show_pageBreakOriginal,
+.xsmallFontSize div.tei.show_pageBreakEdition {
+  .pb_orig,
+  .pb_edition {
+    font-size: math.ceil(0.875 * vars.$text-fontsize-xsmall);
   }
 }
 
-.smallFontSize .pb {
-  &.edition,
-  &.orig {
-    font-size: math.ceil(0.875 * $text-fontsize-small);
+.smallFontSize div.tei.show_pageBreakOriginal,
+.smallFontSize div.tei.show_pageBreakEdition {
+  .pb_orig,
+  .pb_edition {
+    font-size: math.ceil(0.875 * vars.$text-fontsize-small);
   }
 }
 
-.mediumFontSize .pb {
-  &.edition,
-  &.orig {
-    font-size: math.ceil(0.875 * $text-fontsize-medium);
+.mediumFontSize div.tei.show_pageBreakOriginal,
+.mediumFontSize div.tei.show_pageBreakEdition {
+  .pb_orig,
+  .pb_edition {
+    font-size: math.ceil(0.875 * vars.$text-fontsize-medium);
   }
 }
 
-.largeFontSize .pb {
-  &.edition,
-  &.orig {
-    font-size: math.ceil(0.875 * $text-fontsize-large);
+.largeFontSize div.tei.show_pageBreakOriginal,
+.largeFontSize div.tei.show_pageBreakEdition {
+  .pb_orig,
+  .pb_edition {
+    font-size: math.ceil(0.875 * vars.$text-fontsize-large);
   }
 }
 
-.xlargeFontSize .pb {
-  &.edition,
-  &.orig {
-    font-size: math.ceil(0.875 * $text-fontsize-xlarge);
+.xlargeFontSize div.tei.show_pageBreakOriginal,
+.xlargeFontSize div.tei.show_pageBreakEdition {
+  .pb_orig,
+  .pb_edition {
+    font-size: math.ceil(0.875 * vars.$text-fontsize-xlarge);
   }
 }

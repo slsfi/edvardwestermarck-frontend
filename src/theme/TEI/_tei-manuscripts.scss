@@ -3,6 +3,7 @@
  * Styles for manuscripts.
  */
 @use "sass:math";
+@use "../sass_variables" as vars;
 
 /* Size of the esh-symbol in manuscripts. */
 div.tei.teiManuscript .immediate_symbol img {
@@ -11,49 +12,49 @@ div.tei.teiManuscript .immediate_symbol img {
   width: 0.9em; // default
 }
 
-.miniFontSize div.tei.teiManuscript .immediate_symbol img {
-  width: math.ceil(0.9 * $text-fontsize-mini);
-  height: math.ceil(0.9 * $text-fontsize-mini);
+.miniFontSize div.tei .teiManuscript.immediate_symbol img {
+  width: math.ceil(0.9 * vars.$text-fontsize-mini);
+  height: math.ceil(0.9 * vars.$text-fontsize-mini);
 }
 
-.tinyFontSize div.tei.teiManuscript .immediate_symbol img {
-  width: math.ceil(0.9 * $text-fontsize-tiny);
-  height: math.ceil(0.9 * $text-fontsize-tiny);
+.tinyFontSize div.tei .teiManuscript.immediate_symbol img {
+  width: math.ceil(0.9 * vars.$text-fontsize-tiny);
+  height: math.ceil(0.9 * vars.$text-fontsize-tiny);
 }
 
-.xxxsmallFontSize div.tei.teiManuscript .immediate_symbol img {
-  width: math.ceil(0.9 * $text-fontsize-xxxsmall);
-  height: math.ceil(0.9 * $text-fontsize-xxxsmall);
+.xxxsmallFontSize div.tei .teiManuscript.immediate_symbol img {
+  width: math.ceil(0.9 * vars.$text-fontsize-xxxsmall);
+  height: math.ceil(0.9 * vars.$text-fontsize-xxxsmall);
 }
 
-.xxsmallFontSize div.tei.teiManuscript .immediate_symbol img {
-  width: math.ceil(0.9 * $text-fontsize-xxsmall);
-  height: math.ceil(0.9 * $text-fontsize-xxsmall);
+.xxsmallFontSize div.tei .teiManuscript.immediate_symbol img {
+  width: math.ceil(0.9 * vars.$text-fontsize-xxsmall);
+  height: math.ceil(0.9 * vars.$text-fontsize-xxsmall);
 }
 
-.xsmallFontSize div.tei.teiManuscript .immediate_symbol img {
-  width: math.ceil(0.9 * $text-fontsize-xsmall);
-  height: math.ceil(0.9 * $text-fontsize-xsmall);
+.xsmallFontSize div.tei .teiManuscript.immediate_symbol img {
+  width: math.ceil(0.9 * vars.$text-fontsize-xsmall);
+  height: math.ceil(0.9 * vars.$text-fontsize-xsmall);
 }
 
-.smallFontSize div.tei.teiManuscript .immediate_symbol img {
-  width: math.ceil(0.9 * $text-fontsize-small);
-  height: math.ceil(0.9 * $text-fontsize-small);
+.smallFontSize div.tei .teiManuscript.immediate_symbol img {
+  width: math.ceil(0.9 * vars.$text-fontsize-small);
+  height: math.ceil(0.9 * vars.$text-fontsize-small);
 }
 
-.mediumFontSize div.tei.teiManuscript .immediate_symbol img {
-  width: math.ceil(0.9 * $text-fontsize-medium);
-  height: math.ceil(0.9 * $text-fontsize-medium);
+.mediumFontSize div.tei .teiManuscript.immediate_symbol img {
+  width: math.ceil(0.9 * vars.$text-fontsize-medium);
+  height: math.ceil(0.9 * vars.$text-fontsize-medium);
 }
 
-.largeFontSize div.tei.teiManuscript .immediate_symbol img {
-  width: math.ceil(0.9 * $text-fontsize-large);
-  height: math.ceil(0.9 * $text-fontsize-large);
+.largeFontSize div.tei .teiManuscript.immediate_symbol img {
+  width: math.ceil(0.9 * vars.$text-fontsize-large);
+  height: math.ceil(0.9 * vars.$text-fontsize-large);
 }
 
-.xlargeFontSize div.tei.teiManuscript .immediate_symbol img {
-  width: math.ceil(0.9 * $text-fontsize-xlarge);
-  height: math.ceil(0.9 * $text-fontsize-xlarge);
+.xlargeFontSize div.tei .teiManuscript.immediate_symbol img {
+  width: math.ceil(0.9 * vars.$text-fontsize-xlarge);
+  height: math.ceil(0.9 * vars.$text-fontsize-xlarge);
 }
 
 /* Size of the hand-symbol in manuscripts. */
@@ -67,49 +68,49 @@ div.tei.teiManuscript img.handSymbol {
   }
 }
 
-.miniFontSize div.tei.teiManuscript img.handSymbol {
-  width: math.ceil(1 * $text-fontsize-mini);
-  height: math.ceil(1 * $text-fontsize-mini);
+.miniFontSize div.tei img.teiManuscript.handSymbol {
+  width: math.ceil(1 * vars.$text-fontsize-mini);
+  height: math.ceil(1 * vars.$text-fontsize-mini);
 }
 
-.tinyFontSize div.tei.teiManuscript img.handSymbol {
-  width: math.ceil(1 * $text-fontsize-tiny);
-  height: math.ceil(1 * $text-fontsize-tiny);
+.tinyFontSize div.tei img.teiManuscript.handSymbol {
+  width: math.ceil(1 * vars.$text-fontsize-tiny);
+  height: math.ceil(1 * vars.$text-fontsize-tiny);
 }
 
-.xxxsmallFontSize div.tei.teiManuscript img.handSymbol {
-  width: math.ceil(1 * $text-fontsize-xxxsmall);
-  height: math.ceil(1 * $text-fontsize-xxxsmall);
+.xxxsmallFontSize div.tei img.teiManuscript.handSymbol {
+  width: math.ceil(1 * vars.$text-fontsize-xxxsmall);
+  height: math.ceil(1 * vars.$text-fontsize-xxxsmall);
 }
 
-.xxsmallFontSize div.tei.teiManuscript img.handSymbol {
-  width: math.ceil(1 * $text-fontsize-xxsmall);
-  height: math.ceil(1 * $text-fontsize-xxsmall);
+.xxsmallFontSize div.tei img.teiManuscript.handSymbol {
+  width: math.ceil(1 * vars.$text-fontsize-xxsmall);
+  height: math.ceil(1 * vars.$text-fontsize-xxsmall);
 }
 
-.xsmallFontSize div.tei.teiManuscript img.handSymbol {
-  width: math.ceil(1 * $text-fontsize-xsmall);
-  height: math.ceil(1 * $text-fontsize-xsmall);
+.xsmallFontSize div.tei img.teiManuscript.handSymbol {
+  width: math.ceil(1 * vars.$text-fontsize-xsmall);
+  height: math.ceil(1 * vars.$text-fontsize-xsmall);
 }
 
-.smallFontSize div.tei.teiManuscript img.handSymbol {
-  width: math.ceil(1 * $text-fontsize-small);
-  height: math.ceil(1 * $text-fontsize-small);
+.smallFontSize div.tei img.teiManuscript.handSymbol {
+  width: math.ceil(1 * vars.$text-fontsize-small);
+  height: math.ceil(1 * vars.$text-fontsize-small);
 }
 
-.mediumFontSize div.tei.teiManuscript img.handSymbol {
-  width: math.ceil(1 * $text-fontsize-medium);
-  height: math.ceil(1 * $text-fontsize-medium);
+.mediumFontSize div.tei img.teiManuscript.handSymbol {
+  width: math.ceil(1 * vars.$text-fontsize-medium);
+  height: math.ceil(1 * vars.$text-fontsize-medium);
 }
 
-.largeFontSize div.tei.teiManuscript img.handSymbol {
-  width: math.ceil(1 * $text-fontsize-large);
-  height: math.ceil(1 * $text-fontsize-large);
+.largeFontSize div.tei img.teiManuscript.handSymbol {
+  width: math.ceil(1 * vars.$text-fontsize-large);
+  height: math.ceil(1 * vars.$text-fontsize-large);
 }
 
-.xlargeFontSize div.tei.teiManuscript img.handSymbol {
-  width: math.ceil(1 * $text-fontsize-xlarge);
-  height: math.ceil(1 * $text-fontsize-xlarge);
+.xlargeFontSize div.tei img.teiManuscript.handSymbol {
+  width: math.ceil(1 * vars.$text-fontsize-xlarge);
+  height: math.ceil(1 * vars.$text-fontsize-xlarge);
 }
 
 div.tei {
