@@ -8,9 +8,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+
+## [2.1.1-dev.1] – 2025-08-14
+
 ### Changed
 
-- Update to base version [`2.1.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.1.1) from upstream, original repository.
+- Update to base version [`2.1.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.1.1) from upstream, original repository. ([665690a](https://github.com/slsfi/edvardwestermarck-frontend/commit/665690ac0c585572d4909fc8d807e2b16db2ee27))
+- Update config. ([1961d9e](https://github.com/slsfi/edvardwestermarck-frontend/commit/1961d9e7cf92c868ed77324a02d87e29a8072988))
 
 
 
@@ -1085,6 +1091,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.1.1-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.0.0-dev.1...2.1.1-dev.1
 [2.0.0-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.8.2-dev.1...2.0.0-dev.1
 [1.8.2-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.7.0-dev.1...1.8.2-dev.1
 [1.7.0-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.6.5-dev.1...1.7.0-dev.1
