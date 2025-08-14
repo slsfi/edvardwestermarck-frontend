@@ -4,8 +4,8 @@ export const config: Config = {
   app: {
     siteURLOrigin: "https://dev-westermarck.sls.fi",
     projectNameDB: "edvardwestermarck",
-    projectId: 62,
-    backendBaseURL: "https://granska-api.sls.fi/digitaledition",
+    projectId: 1,
+    backendBaseURL: "https://testa-westermarck-api.sls.fi/digitaledition",
     alternateFacsimileBaseURL: "",
     i18n: {
       languages: [
@@ -45,7 +45,7 @@ export const config: Config = {
     replaceImageAssetsPaths: false,
     enableLegacyIDs: false,
     enableMathJax: false,
-    firstTextItem: { 2574: "2574_87079", 2576: "2576_87082" },
+    firstTextItem: { 1: "1_37", 2: "2_1" },
     frontMatterPages: {
       cover: false,
       title: false,
@@ -62,8 +62,8 @@ export const config: Config = {
     inlineIllustrations: [],
     mediaCollectionMappings: {},
     order: [
-      [2574],
-      [2576]
+      [1],
+      [2]
     ]
   },
   ebooks: [],
