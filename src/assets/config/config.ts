@@ -2,10 +2,10 @@ type Config = { [key: string]: any }
 
 export const config: Config = {
   app: {
-    siteURLOrigin: "https://dev-westermarck.sls.fi",
+    siteURLOrigin: "https://granska-westermarck.sls.fi",
     projectNameDB: "edvardwestermarck",
     projectId: 1,
-    backendBaseURL: "https://testa-westermarck-api.sls.fi/digitaledition",
+    backendBaseURL: "https://granska-westermarck-api.sls.fi/digitaledition",
     alternateFacsimileBaseURL: "",
     i18n: {
       languages: [

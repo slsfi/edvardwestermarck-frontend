@@ -1,7 +1,7 @@
 {
-  "name": "dev-westermarck.sls.fi",
+  "name": "granska-westermarck.sls.fi",
   "version": "2.1.1-dev.1",
-  "description": "Frontend of dev-westermarck.sls.fi based on the Angular web app for the SLS Digital Edition Platform",
+  "description": "Frontend of granska-westermarck.sls.fi based on the Angular web app for the SLS Digital Edition Platform",
   "homepage": "https://github.com/slsfi/edvardwestermarck-frontend#readme",
   "license": "MIT",
   "private": true,
