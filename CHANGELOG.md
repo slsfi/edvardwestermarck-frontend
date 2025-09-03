@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.1.1-granska.1] – 2025-09-03
+
 ### Changed
 
-- Backend API to granska-westermarck.sls.fi.
+- Backend API to granska-westermarck.sls.fi. ([d4e25b9](https://github.com/slsfi/edvardwestermarck-frontend/commit/d4e25b912a52bf88315cd32b23f99062e534f92c))
 
 
 
@@ -1094,6 +1098,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.1.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.1.1-dev.1...2.1.1-granska.1
 [2.1.1-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.0.0-dev.1...2.1.1-dev.1
 [2.0.0-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.8.2-dev.1...2.0.0-dev.1
 [1.8.2-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.7.0-dev.1...1.8.2-dev.1
