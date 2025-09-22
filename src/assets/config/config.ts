@@ -22,12 +22,12 @@ export const config: Config = {
       enabled: true,
       image: {
         sv: {
-          altText: "alt-text",
-          URL: "assets/images/home-page-banner.jpg"
+          altText: "Svartvitt fotografi av en man i kostym och glasögon med handen mot hakan till vänster, mot en blåsvart bakgrund med mosaikmönster. Till höger texten: Edvard Westermarck – Brev, artiklar och fälstudier.",
+          URL: "assets/images/open-graph/edvard-westermarck-brev-artiklar-och-faltstudier-1494x782.jpg"
         },
         en: {
-          altText: "alt-text",
-          URL: "assets/images/home-page-banner.jpg"
+          altText: "Black-and-white photograph of a man in a suit and glasses with his hand to his chin on the left, against a blue-black background with a mosaic pattern. On the right, the text: Edvard Westermarck – Letters, articles and field studies.",
+          URL: "assets/images/open-graph/edvard-westermarck-letters-articles-and-field-studies-1494x782.jpg"
         }
       }
     },
@@ -161,16 +161,55 @@ export const config: Config = {
     home: {
       bannerImage: {
         altTexts: {
-          sv: "Porträtt av Edvard Westermarck",
-          en: "Portrait of Edvard Westermarck"
+          sv: "Svartvitt fotografi av en man i kostym och glasögon med handen mot hakan till vänster, mot en blåsvart bakgrund med mosaikmönster.",
+          en: "Black-and-white photograph of a man in a suit and glasses with his hand to his chin on the left, against a blue-black background with a mosaic pattern."
         },
         intrinsicSize: {
-          height: null,
-          width: null
+          height: 677,
+          width: 1920
         },
         orientationPortrait: false,
-        alternateSources: [],
-        URL: "assets/images/home-page-banner-portrait.jpg"
+        alternateSources: [
+          {
+            media: "(max-width: 559px)",
+            srcset: "assets/images/edvard-westermarck-1344x474.avif 1344w",
+            type: "image/avif"
+          },
+          {
+            media: "(max-width: 559px)",
+            srcset: "assets/images/edvard-westermarck-1344x474.jpg 1344w",
+            type: "image/jpeg"
+          },
+          {
+            media: "(max-width: 810px)",
+            srcset: "assets/images/edvard-westermarck-1344x474-alternate.avif 1344w",
+            type: "image/avif"
+          },
+          {
+            media: "(max-width: 810px)",
+            srcset: "assets/images/edvard-westermarck-1344x474-alternate.jpg 1344w",
+            type: "image/jpeg"
+          },
+          {
+            media: "(max-width: 1100px)",
+            srcset: "assets/images/edvard-westermarck-1344x474.avif 1344w",
+            type: "image/avif"
+          },
+          {
+            media: "(max-width: 1100px)",
+            srcset: "assets/images/edvard-westermarck-1344x474.jpg 1344w",
+            type: "image/jpeg"
+          },
+          {
+            srcset: "assets/images/edvard-westermarck-1920x677.avif 1920w",
+            type: "image/avif"
+          },
+          {
+            srcset: "assets/images/edvard-westermarck-1920x677.jpg 1920w",
+            type: "image/jpeg"
+          }
+        ],
+        URL: "assets/images/edvard-westermarck-1920x677.jpg"
       },
       portraitOrientationSettings: {
         imagePlacement: {
@@ -310,7 +349,7 @@ export const config: Config = {
       ungroupArticles: false
     },
     manuscripts: {
-      showTitle: true,
+      showTitle: false,
       showNormalizedToggle: true,
       showOpenLegendButton: true
     },

@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Added
+
+- Project styling.
+
 ### Changed
 
 - Update to base version [`2.2.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.2.0) from upstream, original repository.

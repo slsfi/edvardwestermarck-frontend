@@ -25,10 +25,10 @@
  * Import font files using @font-face rules. Comment out the import lines of
  * the font-families you don’t use in your project.
  */
-@include meta.load-css("theme/font-face/roboto");
+// @include meta.load-css("theme/font-face/roboto");
 @include meta.load-css("theme/font-face/source-serif");
 // @include meta.load-css("theme/font-face/mulish");
-// @include meta.load-css("theme/font-face/inter");
+@include meta.load-css("theme/font-face/inter");
 
 
 /* CSS variables (CSS custom properties). */

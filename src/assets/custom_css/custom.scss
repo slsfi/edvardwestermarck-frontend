@@ -193,3 +193,167 @@
   }
 
 */
+
+
+/* Override CSS variables */
+
+:root {
+  --primary-color:                    #2e2f4b;
+  --primary-color-rgb:                46, 47, 75;
+  --secondary-color:                  #d4d1c9;
+  --default-link-color:               #2c3396;
+
+  --button-background-color:               #2c2e6e;
+  --fab-button-primary-background-color:   #2c2e6e;
+  --outline-button-color:                  #2c2e6e;
+
+  --font-stack-app-base:           Inter, var(--font-stack-system);
+  --font-stack-home-banner:        "Elmhurst", var(--font-stack-tei);
+}
+
+ion-app[class][class] {
+  --side-menu-background-color:                  #d4d1c9;
+  --side-menu-border-right-color:                #bfb8a4;
+  --side-menu-divider-color:                     #dedede;
+  --side-menu-hover-color:                       #2c2e6e;
+  --side-menu-description-text-color:            #2c2c2c;
+  --side-menu-collection-title-background-color: #bfb8a4;
+  --side-menu-back-button-text-color:            var(--side-menu-text-color);
+  --side-menu-back-button-background-color:      #d4d1c9;
+  --side-menu-selected-background-color:         #ede788;
+}
+
+/* Custom, project specific styles */
+
+top-menu {
+  // adjust site title in the top menu
+  div.site-title {
+    a {
+      font-variant: normal;
+      letter-spacing: normal;
+      text-transform: uppercase;
+
+      @media only screen and (min-width: 540px) {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+
+main-side-menu {
+  // add bottom border to the home menu item in the main menu
+  li.home-menu-item.home-menu-item {
+    border-bottom: 1px solid var(--side-menu-divider-color);
+  }
+}
+
+page-home {
+  .banner.banner {
+    // border below the banner image
+    border-bottom: 4px solid #e0c64f;
+
+    @media screen and (min-width: 1800px) {
+      height: 65%;
+    }
+    @media screen and (min-width: 2500px) {
+      height: 75%;
+    }
+
+    .title-wrapper {
+      &.title-wrapper {
+        @media screen and (max-width: 559px) {
+          top: 82%;
+
+          .banner-title {
+            margin-bottom: 0;
+          }
+
+          .banner-title,
+          .banner-subtitle {
+            text-shadow: #000 1px 0 5px, #000 1px 0 10px, #000 0 0 5px, #000 0 0 20px, #000 0 0 50px;
+          }
+        }
+        // on medium screen widths move title to the left so it's not on top of the portrait of EW
+        @media screen and (min-width: 560px) and (max-width: 1400px) {
+          left: 60%;
+        }
+      }
+
+      .banner-title,
+      .banner-subtitle {
+        background-color: transparent;
+        color: #e0c64f;
+        opacity: unset;
+        text-shadow: #000 5px 0 6px;
+      }
+      .banner-title {
+        @media screen and (min-width: 1024px) {
+          font-size: calc(2.675rem + 1.75vw);
+        }
+      }
+    }
+
+    /* The top left of the banner image must remain in view */
+    .landscape-picture img {
+      object-position: left top;
+    }
+  }
+
+  .text-content div.site-presentation.markdown.markdown {
+    max-width: 750px;
+    text-align: left;
+  }
+}
+
+page-elastic-search {
+  .info.markdown {
+    /* Sökinstruktionerna i avancerade sökningen */
+    details {
+      padding: .5em .5em 0;
+
+      ul li {
+        line-height: 1.5;
+      }
+
+      ul li + li {
+        padding-top: 0.75em;
+      }
+    }
+
+    summary {
+      font-weight: bold;
+      margin: -.5em -.5em 0;
+      padding: .5em;
+    }
+
+    details[open] {
+      border-bottom: 1px solid #aaa;
+      padding: .5em;
+
+      summary {
+        border-bottom: 1px solid #aaa;
+        margin-bottom: .5em;
+      }
+    }
+
+    .query_example {
+      background-color: #fdfdfd;
+      border: 1px solid var(--button-background-color);
+      border-radius: 3px;
+      color: var(--button-background-color);
+      font-family: monospace;
+      font-size: 0.889em;
+      padding: 0.125em 0.25em;
+    }
+  }
+}
+
+/* Cookiebanner */
+a.cky-banner-element {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#cky-consent,
+#cky-settings-popup {
+  font-family: var(--font-stack-app-base);
+}
