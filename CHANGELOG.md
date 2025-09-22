@@ -8,13 +8,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.2.0-granska.1] – 2025-09-22
+
 ### Added
 
-- Project styling.
+- Project styling. ([f0e8cca](https://github.com/slsfi/edvardwestermarck-frontend/commit/f0e8ccaaa9db2587b8d21564621dcd884d80e59a))
 
 ### Changed
 
-- Update to base version [`2.2.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.2.0) from upstream, original repository.
+- Update to base version [`2.2.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.2.0) from upstream, original repository. ([498474f](https://github.com/slsfi/edvardwestermarck-frontend/commit/498474f47787b8dda99d10496fa9dd08d9ec8d69))
 
 
 
@@ -1149,6 +1153,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.2.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.1.1-granska.1...2.2.0-granska.1
 [2.1.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.1.1-dev.1...2.1.1-granska.1
 [2.1.1-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.0.0-dev.1...2.1.1-dev.1
 [2.0.0-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.8.2-dev.1...2.0.0-dev.1
