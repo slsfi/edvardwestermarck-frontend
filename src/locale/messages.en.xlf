@@ -1545,7 +1545,7 @@
     <unit id="Site.Subtitle">
       <segment state="initial">
         <source>Webbplatsens undertitel</source>
-        <target>Letters, articles and field studies</target>
+        <target>Letters, Articles and Field Studies</target>
       </segment>
     </unit>
     <unit id="Site.Title">
