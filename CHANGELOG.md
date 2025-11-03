@@ -12,6 +12,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 - Update site subtitle.
 
+### Fixed
+
+- Paragraph numbering styles.
+
 
 
 ## [2.2.0-granska.1] – 2025-09-22
