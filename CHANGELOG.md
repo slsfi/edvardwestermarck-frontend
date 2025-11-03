@@ -8,13 +8,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.2.0-granska.2] – 2025-11-03
+
 ### Changed
 
-- Update site subtitle.
+- Update site subtitle. ([e89e41b](https://github.com/slsfi/edvardwestermarck-frontend/commit/e89e41b24dcd6300bdc4e618ae695fb8ca30bd5b))
 
 ### Fixed
 
-- Paragraph numbering styles.
+- Paragraph numbering styles. ([4a090ef](https://github.com/slsfi/edvardwestermarck-frontend/commit/4a090effe13a1214297a7db878d6cbec6f4487ac))
 
 
 
@@ -1161,6 +1165,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.2.0-granska.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.0-granska.1...2.2.0-granska.2
 [2.2.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.1.1-granska.1...2.2.0-granska.1
 [2.1.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.1.1-dev.1...2.1.1-granska.1
 [2.1.1-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.0.0-dev.1...2.1.1-dev.1
