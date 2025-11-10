@@ -39,7 +39,17 @@ export const config: Config = {
       collectionSideMenu: false
     }
   },
-  articles: [],
+  articles: [
+    {
+      id: "04-01",
+      language: "sv",
+      routeName: "om-edvard-westermarck",
+      title: "Om Edvard Westermarck",
+      coverURL: "",
+      enableTOC: true,
+      downloadOptions: []
+    }
+  ],
   collections: {
     addTEIClassNames: false,
     replaceImageAssetsPaths: false,
@@ -335,7 +345,7 @@ export const config: Config = {
     mainSideMenu: {
       items: {
         about: true,
-        articles: false,
+        articles: true,
         ebooks: false,
         collections: true,
         mediaCollections: false,
@@ -346,7 +356,7 @@ export const config: Config = {
         search: true
       },
       defaultExpanded: false,
-      ungroupArticles: false
+      ungroupArticles: true
     },
     manuscripts: {
       showTitle: false,
@@ -354,8 +364,8 @@ export const config: Config = {
       showOpenLegendButton: true
     },
     topMenu: {
-      showAboutButton: true,
-      showContentButton: true,
+      showAboutButton: false,
+      showContentButton: false,
       showElasticSearchButton: true,
       showLanguageButton: true
     },

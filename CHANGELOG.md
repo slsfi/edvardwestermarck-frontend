@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Update config with article about Westermarck.
+
 
 
 ## [2.2.1-granska.1] – 2025-11-03

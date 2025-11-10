@@ -348,6 +348,20 @@ page-elastic-search {
   }
 }
 
+page-article {
+  .markdown {
+    h2 {
+      margin-top: 2em;
+    }
+  }
+
+  .article-toc-list {
+    .article-toc-level-2 {
+      font-weight: normal;
+    }
+  }
+}
+
 /* Cookiebanner */
 a.cky-banner-element {
   cursor: pointer;
