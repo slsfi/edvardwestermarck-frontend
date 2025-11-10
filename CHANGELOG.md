@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.2.1-production.1] – 2025-11-10
+
 ### Changed
 
-- Set up production configuration.
+- Set up production configuration. ([e2c1ae7](https://github.com/slsfi/edvardwestermarck-frontend/commit/e2c1ae732b5c4f23adad0780714c43bcecf3823e))
 
 
 
@@ -1058,3 +1062,5 @@ siteLogoDimensions: {
 [1.0.2]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
+
+[2.2.1-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/releases/tag/2.2.1-production.1
