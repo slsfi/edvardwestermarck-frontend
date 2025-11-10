@@ -2,10 +2,10 @@ type Config = { [key: string]: any }
 
 export const config: Config = {
   app: {
-    siteURLOrigin: "https://granska-westermarck.sls.fi",
+    siteURLOrigin: "https://westermarck.sls.fi",
     projectNameDB: "edvardwestermarck",
     projectId: 1,
-    backendBaseURL: "https://granska-westermarck-api.sls.fi/digitaledition",
+    backendBaseURL: "https://westermarck-api.sls.fi/digitaledition",
     alternateFacsimileBaseURL: "",
     i18n: {
       languages: [
@@ -26,7 +26,7 @@ export const config: Config = {
           URL: "assets/images/open-graph/edvard-westermarck-brev-artiklar-och-faltstudier-1494x782.jpg"
         },
         en: {
-          altText: "Black-and-white photograph of a man in a suit and glasses with his hand to his chin on the left, against a blue-black background with a mosaic pattern. On the right, the text: Edvard Westermarck – Letters, articles and field studies.",
+          altText: "Black-and-white photograph of a man in a suit and glasses with his hand to his chin on the left, against a blue-black background with a mosaic pattern. On the right, the text: Edvard Westermarck – Letters, Articles and Field Studies.",
           URL: "assets/images/open-graph/edvard-westermarck-letters-articles-and-field-studies-1494x782.jpg"
         }
       }
@@ -61,10 +61,7 @@ export const config: Config = {
     highlightSearchMatches: true,
     inlineIllustrations: [],
     mediaCollectionMappings: {},
-    order: [
-      [1],
-      [2]
-    ]
+    order: []
   },
   ebooks: [],
   page: {
@@ -80,7 +77,7 @@ export const config: Config = {
       enableSortOptions: true,
       filterGroupsOpenByDefault: ["Years", "Type", "Genre", "Collection"],
       hitsPerPage: 15,
-      indices: ["edvardwestermarck"],
+      indices: ["westermarck"],
       openReadingTextWithComments: false,
       textHighlightFragmentSize: 150,
       textHighlightType: "fvh",
@@ -94,7 +91,7 @@ export const config: Config = {
         },
         {
           terms: {
-            published: ["2"]
+            published: ["1"]
           }
         }
       ],
@@ -128,6 +125,13 @@ export const config: Config = {
             order: {_key: "asc"}
           }
         },
+        Language: {
+          terms: {
+            field: "text_language",
+            size: 40,
+            order: {_key: "asc"}
+          }
+        },
         LetterSenderName: {
           terms: {
             field: "sender_subject_name.keyword",
@@ -155,8 +159,8 @@ export const config: Config = {
       }
     },
     foreword: {
-      showURNButton: true,
-      showViewOptionsButton: true
+      showURNButton: false,
+      showViewOptionsButton: false
     },
     home: {
       bannerImage: {
@@ -244,20 +248,20 @@ export const config: Config = {
       }
     },
     introduction: {
-      hasSeparateTOC: true,
-      showTextDownloadButton: true,
-      showURNButton: true,
+      hasSeparateTOC: false,
+      showTextDownloadButton: false,
+      showURNButton: false,
       showViewOptionsButton: true,
       viewOptions: {
-        personInfo: true,
+        personInfo: false,
         placeInfo: false,
-        workInfo: true,
+        workInfo: false,
         paragraphNumbering: true,
-        pageBreakEdition: true
+        pageBreakEdition: false
       }
     },
     mediaCollection: {
-      showURNButton: true
+      showURNButton: false
     },
     text: {
       defaultViews: ["readingtext", "facsimiles"],
@@ -305,7 +309,7 @@ export const config: Config = {
     },
     title: {
       loadContentFromMarkdown: false,
-      showURNButton: true,
+      showURNButton: false,
       showViewOptionsButton: true
     }
   },
@@ -334,16 +338,16 @@ export const config: Config = {
     },
     mainSideMenu: {
       items: {
-        about: true,
+        about: false,
         articles: false,
         ebooks: false,
-        collections: true,
+        collections: false,
         mediaCollections: false,
         indexKeywords: false,
         indexPersons: false,
         indexPlaces: false,
         indexWorks: false,
-        search: true
+        search: false
       },
       defaultExpanded: false,
       ungroupArticles: false
@@ -354,9 +358,9 @@ export const config: Config = {
       showOpenLegendButton: true
     },
     topMenu: {
-      showAboutButton: true,
-      showContentButton: true,
-      showElasticSearchButton: true,
+      showAboutButton: false,
+      showContentButton: false,
+      showElasticSearchButton: false,
       showLanguageButton: true
     },
     variants: {
@@ -380,11 +384,11 @@ export const config: Config = {
         print: true
       },
       commentsFormats: {
-        xml: true,
+        xml: false,
         html: false,
         xhtml: false,
         txt: false,
-        print: true
+        print: false
       },
       manuscriptsFormats: {
         xml: false,
