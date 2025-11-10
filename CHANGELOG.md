@@ -8,37 +8,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
-
-
-## [2.2.1-granska.1] – 2025-11-03
-
 ### Changed
 
-- Update to base version [`2.2.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.2.1) from upstream, original repository. ([c69e327](https://github.com/slsfi/edvardwestermarck-frontend/commit/c69e327f1a90a167d44f49cae892a97b90411ebd))
-
-
-
-## [2.2.0-granska.2] – 2025-11-03
-
-### Changed
-
-- Update site subtitle. ([e89e41b](https://github.com/slsfi/edvardwestermarck-frontend/commit/e89e41b24dcd6300bdc4e618ae695fb8ca30bd5b))
-
-### Fixed
-
-- Paragraph numbering styles. ([4a090ef](https://github.com/slsfi/edvardwestermarck-frontend/commit/4a090effe13a1214297a7db878d6cbec6f4487ac))
-
-
-
-## [2.2.0-granska.1] – 2025-09-22
-
-### Added
-
-- Project styling. ([f0e8cca](https://github.com/slsfi/edvardwestermarck-frontend/commit/f0e8ccaaa9db2587b8d21564621dcd884d80e59a))
-
-### Changed
-
-- Update to base version [`2.2.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.2.0) from upstream, original repository. ([498474f](https://github.com/slsfi/edvardwestermarck-frontend/commit/498474f47787b8dda99d10496fa9dd08d9ec8d69))
+- Set up production configuration.
 
 
 
@@ -102,23 +74,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - Consistent naming of files containing models. ([fbf190d](https://github.com/slsfi/digital-edition-frontend-ng/commit/fbf190d4c3563852911a199d458ae90ca5e21697))
 - Gallery item model mapping. ([b9943b5](https://github.com/slsfi/digital-edition-frontend-ng/commit/b9943b56650992bbe75d58e272c37162eca7d6e8))
 - Accessible labels for text changer links in mobile mode. ([2aa99ef](https://github.com/slsfi/digital-edition-frontend-ng/commit/2aa99ef6f3361fc3c8ef66496964fa9562b8a28e))
-
-
-
-## [2.1.1-granska.1] – 2025-09-03
-
-### Changed
-
-- Backend API to granska-westermarck.sls.fi. ([d4e25b9](https://github.com/slsfi/edvardwestermarck-frontend/commit/d4e25b912a52bf88315cd32b23f99062e534f92c))
-
-
-
-## [2.1.1-dev.1] – 2025-08-14
-
-### Changed
-
-- Update to base version [`2.1.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.1.1) from upstream, original repository. ([665690a](https://github.com/slsfi/edvardwestermarck-frontend/commit/665690ac0c585572d4909fc8d807e2b16db2ee27))
-- Update config. ([1961d9e](https://github.com/slsfi/edvardwestermarck-frontend/commit/1961d9e7cf92c868ed77324a02d87e29a8072988))
 
 
 
@@ -217,14 +172,6 @@ By default, articles are grouped in the main side menu under a heading based on 
 
 
 
-## [2.0.0-dev.1] – 2025-08-05
-
-### Changed
-
-- Update to base version [`2.0.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.0.0) from upstream, original repository. ([f339f56](https://github.com/slsfi/edvardwestermarck-frontend/commit/f339f56764f3f1323d68f3f8a0d956730260f80c))
-
-
-
 ## [2.0.0] – 2025-08-05
 
 > [!IMPORTANT]
@@ -288,14 +235,6 @@ div.tei .teiComment.noteReference {
 - Remove `component.mainSideMenu.items.home` from the config. The home button is always shown in the main side menu.
 - Remove the option to show the ”refer to edition” button in the top menu bar. The config option `component.topMenu.showURNButton` has been removed.
 - Remove support for viewing EPUB-files integrated in the web app. Integrated PDF-files are still supported.
-
-
-
-## [1.8.2-dev.1] – 2025-08-05
-
-### Changed
-
-- Update to base version [`1.8.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.8.2) from upstream, original repository. ([fb4efb7](https://github.com/slsfi/edvardwestermarck-frontend/commit/fb4efb7133c9f11caedb1908f42cf92b40a89c2a))
 
 
 
@@ -381,14 +320,6 @@ export const config: Config = {
 
 
 
-## [1.7.0-dev.1] – 2025-06-17
-
-### Changed
-
-- Update to base version [`1.7.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.7.0) from upstream, original repository. ([4a404a7](https://github.com/slsfi/edvardwestermarck-frontend/commit/4a404a7db7277524b588d14d631b679abbd49e52))
-
-
-
 ## [1.7.0] – 2025-06-07
 
 ### Added
@@ -467,15 +398,6 @@ export const config: Config = {
 
 
 
-## [1.6.5-dev.1] – 2025-05-19
-
-### Changed
-
-- Update to base version [`1.6.5`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.6.5) from upstream, original repository. ([8b41a49](https://github.com/slsfi/edvardwestermarck-frontend/commit/8b41a49ccc1fd4e537fef17bbd6184f201e2d910))
-- Update CSS. ([9563492](https://github.com/slsfi/edvardwestermarck-frontend/commit/956349266dd6c5dd069cb44680991499d38add99))
-
-
-
 ## [1.6.5] – 2025-05-19
 
 > [!IMPORTANT]
@@ -550,15 +472,6 @@ export const config: Config = {
 
 
 
-## [1.6.0-dev.1] – 2025-04-24
-
-### Changed
-
-- Update CSS. ([8e0d233](https://github.com/slsfi/edvardwestermarck-frontend/commit/8e0d2339294f345a08d76707433eece13b27ed2f))
-- Merge release [`v1.6.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.6.0) from upstream, original repository into `development` branch. ([4702fa0](https://github.com/slsfi/edvardwestermarck-frontend/commit/4702fa0dd92514ce8f3b5da7dd8fac147a67a143))
-
-
-
 ## [1.6.0] – 2025-04-11
 
 ### Added
@@ -588,39 +501,6 @@ export const config: Config = {
 
 
 
-## [1.5.7-dev.4] – 2025-04-07
-
-### Changed
-
-- Update CSS. ([1dd379a](https://github.com/slsfi/edvardwestermarck-frontend/commit/1dd379afe532c30e3c2e721c6fd2ad3622cc9bb8))
-
-
-
-## [1.5.7-dev.3] – 2025-04-07
-
-### Changed
-
-- Modernize TEI CSS. ([8ca7a87](https://github.com/slsfi/edvardwestermarck-frontend/commit/8ca7a87960e2e5f5e31213c9019308431fb5c278))
-- Update config. ([3fd6f1f](https://github.com/slsfi/edvardwestermarck-frontend/commit/3fd6f1f80cb13d171269c18b8d43c3095f191e70))
-
-
-
-## [1.5.7-dev.2] – 2025-04-02
-
-### Added
-
-- New collections to config and edited translations. ([a0eb3d2](https://github.com/slsfi/edvardwestermarck-frontend/commit/a0eb3d22012ee1ab5ddf7acd517d6bac068cfd73))
-
-
-
-## [1.5.7-dev.1] – 2025-03-17
-
-### Changed
-
-- Merge release [`v1.5.7`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.7) from upstream, original repository into `development` branch. ([4b70792](https://github.com/slsfi/edvardwestermarck-frontend/commit/4b70792a9c76c058278d512ef36819f6e2bcf832))
-
-
-
 ## [1.5.7] – 2025-03-17
 
 ### Changed
@@ -638,14 +518,6 @@ export const config: Config = {
 
 
 
-## [1.5.6-dev.1] – 2025-02-03
-
-### Changed
-
-- Merge release [`v1.5.6`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.6) from upstream, original repository into `development` branch. ([10bca24](https://github.com/slsfi/edvardwestermarck-frontend/commit/10bca24d0b7aec5a711a923c44e708029891d21a))
-
-
-
 ## [1.5.6] – 2025-02-03
 
 ### Changed
@@ -656,14 +528,6 @@ export const config: Config = {
 - Deps (dev): update `@types/node` to 20.17.16. ([8e773f7](https://github.com/slsfi/digital-edition-frontend-ng/commit/8e773f7bcb3cbf9f9d601a2166b7cb3ea782fdba))
 - Deps (dev): update `ng-extract-i18n-merge` to 2.14.1. ([8968b72](https://github.com/slsfi/digital-edition-frontend-ng/commit/8968b7237d59eacc9aff2bff6a4fcf60e2d9cdd3))
 - Deps (dev): update `typescript` to 5.7.3. ([c701917](https://github.com/slsfi/digital-edition-frontend-ng/commit/c7019176b057ea607d7bc18448b7af92b0441515))
-
-
-
-## [1.5.5-dev.1] – 2025-01-07
-
-### Changed
-
-- Set up basic configuration of development frontend. ([1b489aa](https://github.com/slsfi/edvardwestermarck-frontend/commit/1b489aa54964446feb0f8b77b0f00817216d33d8), [c85d675](https://github.com/slsfi/edvardwestermarck-frontend/commit/c85d67572360b94ab957002e94b9c8658223dd80))
 
 
 
@@ -1194,20 +1058,3 @@ siteLogoDimensions: {
 [1.0.2]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
-
-[2.2.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.0-granska.2...2.2.1-granska.1
-[2.2.0-granska.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.0-granska.1...2.2.0-granska.2
-[2.2.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.1.1-granska.1...2.2.0-granska.1
-[2.1.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.1.1-dev.1...2.1.1-granska.1
-[2.1.1-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.0.0-dev.1...2.1.1-dev.1
-[2.0.0-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.8.2-dev.1...2.0.0-dev.1
-[1.8.2-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.7.0-dev.1...1.8.2-dev.1
-[1.7.0-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.6.5-dev.1...1.7.0-dev.1
-[1.6.5-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.6.0-dev.1...1.6.5-dev.1
-[1.6.0-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.4...1.6.0-dev.1
-[1.5.7-dev.4]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.3...1.5.7-dev.4
-[1.5.7-dev.3]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.2...1.5.7-dev.3
-[1.5.7-dev.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.7-dev.1...1.5.7-dev.2
-[1.5.7-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.6-dev.1...1.5.7-dev.1
-[1.5.6-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/1.5.5-dev.1...1.5.6-dev.1
-[1.5.5-dev.1]: https://github.com/slsfi/edvardwestermarck-frontend/releases/tag/1.5.5-dev.1

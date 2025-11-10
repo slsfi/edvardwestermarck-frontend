@@ -238,6 +238,11 @@ top-menu {
       }
     }
   }
+
+  // Hide menu button until release
+  .main-menu-button {
+    display: none !important;
+  }
 }
 
 main-side-menu {

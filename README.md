@@ -1,6 +1,6 @@
-# Granska frontend of the digital edition Edvard Westermarck, granska-westermarck.sls.fi
+# Production frontend of the digital edition Edvard Westermarck, westermarck.sls.fi
 
-This branch contains the internal, ’granska’ frontend app of the digital edition Edvard Westermarck, <https://granska-westermarck.sls.fi/>. It is based on [`digital-edition-frontend-ng`][digital-edition-frontend-ng], the frontend app of the [SLS][SLS] platform for building digital edition web apps.
+This branch contains the production frontend app of the digital edition Edvard Westermarck, <https://westermarck.sls.fi/>. It is based on [`digital-edition-frontend-ng`][digital-edition-frontend-ng], the frontend app of the [SLS][SLS] platform for building digital edition web apps.
 
 The app is built on [Angular][angular] and uses [Ionic][ionic] web components.
 
