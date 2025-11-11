@@ -364,8 +364,8 @@ export const config: Config = {
       showOpenLegendButton: true
     },
     topMenu: {
-      showAboutButton: false,
-      showContentButton: false,
+      showAboutButton: true,
+      showContentButton: true,
       showElasticSearchButton: true,
       showLanguageButton: true
     },

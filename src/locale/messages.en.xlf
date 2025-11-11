@@ -927,13 +927,13 @@
     <unit id="MainSideMenu.CollectionsGroup1">
       <segment state="initial">
         <source>Innehåll</source>
-        <target>Content</target>
+        <target>Artiklar</target>
       </segment>
     </unit>
     <unit id="MainSideMenu.CollectionsGroup2">
       <segment state="initial">
         <source>Innehåll 2</source>
-        <target>Content 2</target>
+        <target>Korrespondens med Rolf Lagerborg</target>
       </segment>
     </unit>
     <unit id="MainSideMenu.CollectionsGroup3">
