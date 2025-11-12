@@ -8,11 +8,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.2.1-granska.3] – 2025-11-12
+
 ### Changed
 
-- Update config.
-- Update translations.
-- Update custom CSS.
+- Update config. ([30578d1](https://github.com/slsfi/edvardwestermarck-frontend/commit/30578d143c8f797b42008d48532ca6d94203832d))
+- Update translations. ([0faed3b](https://github.com/slsfi/edvardwestermarck-frontend/commit/0faed3b64cc077409888777838b23ee9c9ead62f))
+- Update custom CSS. ([76fb61e](https://github.com/slsfi/edvardwestermarck-frontend/commit/76fb61e4ac7e6853fd98f171798ca267e6cd48af))
 
 
 
@@ -1211,6 +1215,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.2.1-granska.3]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.1-granska.2...2.2.1-granska.3
 [2.2.1-granska.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.1-granska.1...2.2.1-granska.2
 [2.2.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.0-granska.2...2.2.1-granska.1
 [2.2.0-granska.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.0-granska.1...2.2.0-granska.2
