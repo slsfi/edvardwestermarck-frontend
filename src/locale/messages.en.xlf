@@ -927,13 +927,13 @@
     <unit id="MainSideMenu.CollectionsGroup1">
       <segment state="initial">
         <source>Innehåll</source>
-        <target>Artiklar</target>
+        <target>Articles</target>
       </segment>
     </unit>
     <unit id="MainSideMenu.CollectionsGroup2">
       <segment state="initial">
         <source>Innehåll 2</source>
-        <target>Korrespondens</target>
+        <target>Letters</target>
       </segment>
     </unit>
     <unit id="MainSideMenu.CollectionsGroup3">
