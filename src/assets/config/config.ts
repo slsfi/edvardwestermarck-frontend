@@ -90,7 +90,7 @@ export const config: Config = {
       enableSortOptions: true,
       filterGroupsOpenByDefault: ["Years", "Type", "Genre", "Collection"],
       hitsPerPage: 15,
-      indices: ["edvardwestermarck"],
+      indices: ["westermarck"],
       openReadingTextWithComments: false,
       textHighlightFragmentSize: 150,
       textHighlightType: "fvh",
@@ -104,7 +104,7 @@ export const config: Config = {
         },
         {
           terms: {
-            published: ["2"]
+            published: ["1", "2"]
           }
         }
       ],
@@ -131,10 +131,10 @@ export const config: Config = {
             order: {_key: "asc"}
           }
         },
-        Collection: {
+        CollectionId: {
           terms: {
-            field: "publication_data.collection_name.keyword",
-            size: 40,
+            field: "collection_id",
+            size: 20,
             order: {_key: "asc"}
           }
         },
@@ -328,7 +328,7 @@ export const config: Config = {
       categoricalSortingSecondaryKey: ""
     },
     contentGrid: {
-      includeArticles: false,
+      includeArticles: true,
       includeEbooks: false,
       includeMediaCollection: false,
       mediaCollectionCoverURL: "",
