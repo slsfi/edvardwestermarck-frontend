@@ -8,11 +8,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.2.1-granska.2] – 2025-11-12
+
 ### Changed
 
-- Update config with article about Westermarck.
-- Update config elastic search settings.
-- Update translations.
+- Update config with article about Westermarck. ([7cb8c7d](https://github.com/slsfi/edvardwestermarck-frontend/commit/7cb8c7d13659ab6444d6425ea23196dd37c04d51))
+- Update config elastic search settings. ([42c01fb](https://github.com/slsfi/edvardwestermarck-frontend/commit/42c01fbb596a110b35b5053619cb62b5b1ee4f0b))
+- Update translations. ([c45bc68](https://github.com/slsfi/edvardwestermarck-frontend/commit/c45bc68add4aadb69d34fdbc1fb847a9a6f834cf), [97e5bcf](https://github.com/slsfi/edvardwestermarck-frontend/commit/97e5bcfc5c72790009874356f0f883124d1dd82d), [243cc8e](https://github.com/slsfi/edvardwestermarck-frontend/commit/243cc8e1515d0c05fbc2016f5db394092c96aebc))
 
 
 
@@ -21,6 +25,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Changed
 
 - Update to base version [`2.2.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.2.1) from upstream, original repository. ([c69e327](https://github.com/slsfi/edvardwestermarck-frontend/commit/c69e327f1a90a167d44f49cae892a97b90411ebd))
+
+
+
+## [2.2.1] – 2025-10-31
+
+### Added
+
+- Bottom border to main menu home item. ([99cbf7d](https://github.com/slsfi/digital-edition-frontend-ng/commit/99cbf7de6ed93a286a6c14291c66dc425e0d0976))
+
+### Changed
+
+- Deps: update `angular/cli` to 20.3.8 and `angular/core` to 20.3.9. ([95a31f5](https://github.com/slsfi/digital-edition-frontend-ng/commit/95a31f5e2eb98b3bd54a82e36cdd8a40335c00be))
+- Deps: update `marked` to 16.4.1. ([478a9db](https://github.com/slsfi/digital-edition-frontend-ng/commit/478a9db8dfbd0e4db418736a5a0fbe4f44955512))
+- Deps (dev): update `@types/express` to 5.0.5. ([a560e6f](https://github.com/slsfi/digital-edition-frontend-ng/commit/a560e6f3fd27c30a1b42002936259f84233eb37c))
+- Deps (dev): update `@types/jasmine` to 5.1.12. ([2b0d499](https://github.com/slsfi/digital-edition-frontend-ng/commit/2b0d499f645f2e6be0570a877e8a571b15374598))
+- Deps (dev): update `@types/node` to 22.18.13. ([5099a90](https://github.com/slsfi/digital-edition-frontend-ng/commit/5099a9090be89e63e98e872f614fb76e933a0fe3))
+- Deps (dev): update `jasmine-core` to 5.12.1. ([764ff99](https://github.com/slsfi/digital-edition-frontend-ng/commit/764ff994206994d8a1726b04aa7b3a8a67fdac74))
+
+### Fixed
+
+- Translation typo. ([17317fa](https://github.com/slsfi/digital-edition-frontend-ng/commit/17317fa13dd810b8f113e201264f1763271470fe))
 
 
 
@@ -45,27 +70,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Changed
 
 - Update to base version [`2.2.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.2.0) from upstream, original repository. ([498474f](https://github.com/slsfi/edvardwestermarck-frontend/commit/498474f47787b8dda99d10496fa9dd08d9ec8d69))
-
-
-
-## [2.2.1] – 2025-10-31
-
-### Added
-
-- Bottom border to main menu home item. ([99cbf7d](https://github.com/slsfi/digital-edition-frontend-ng/commit/99cbf7de6ed93a286a6c14291c66dc425e0d0976))
-
-### Changed
-
-- Deps: update `angular/cli` to 20.3.8 and `angular/core` to 20.3.9. ([95a31f5](https://github.com/slsfi/digital-edition-frontend-ng/commit/95a31f5e2eb98b3bd54a82e36cdd8a40335c00be))
-- Deps: update `marked` to 16.4.1. ([478a9db](https://github.com/slsfi/digital-edition-frontend-ng/commit/478a9db8dfbd0e4db418736a5a0fbe4f44955512))
-- Deps (dev): update `@types/express` to 5.0.5. ([a560e6f](https://github.com/slsfi/digital-edition-frontend-ng/commit/a560e6f3fd27c30a1b42002936259f84233eb37c))
-- Deps (dev): update `@types/jasmine` to 5.1.12. ([2b0d499](https://github.com/slsfi/digital-edition-frontend-ng/commit/2b0d499f645f2e6be0570a877e8a571b15374598))
-- Deps (dev): update `@types/node` to 22.18.13. ([5099a90](https://github.com/slsfi/digital-edition-frontend-ng/commit/5099a9090be89e63e98e872f614fb76e933a0fe3))
-- Deps (dev): update `jasmine-core` to 5.12.1. ([764ff99](https://github.com/slsfi/digital-edition-frontend-ng/commit/764ff994206994d8a1726b04aa7b3a8a67fdac74))
-
-### Fixed
-
-- Translation typo. ([17317fa](https://github.com/slsfi/digital-edition-frontend-ng/commit/17317fa13dd810b8f113e201264f1763271470fe))
 
 
 
@@ -1201,6 +1205,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.2.1-granska.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.1-granska.1...2.2.1-granska.2
 [2.2.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.0-granska.2...2.2.1-granska.1
 [2.2.0-granska.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.0-granska.1...2.2.0-granska.2
 [2.2.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.1.1-granska.1...2.2.0-granska.1
