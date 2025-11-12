@@ -939,7 +939,7 @@
     <unit id="MainSideMenu.CollectionsGroup3">
       <segment state="initial">
         <source>Innehåll 3</source>
-        <target>Innehåll 3</target>
+        <target>Böcker</target>
       </segment>
     </unit>
     <unit id="MainSideMenu.CollectionsGroup4">
