@@ -48,6 +48,15 @@ export const config: Config = {
       coverURL: "",
       enableTOC: true,
       downloadOptions: []
+    },
+    {
+      id: "04-01",
+      language: "en",
+      routeName: "about-edvard-westermarck",
+      title: "About Edvard Westermarck",
+      coverURL: "",
+      enableTOC: true,
+      downloadOptions: []
     }
   ],
   collections: {
@@ -58,22 +67,23 @@ export const config: Config = {
     firstTextItem: { 1: "1_37", 2: "2_1" },
     frontMatterPages: {
       cover: false,
-      title: false,
+      title: true,
       foreword: false,
-      introduction: false
+      introduction: true
     },
     frontMatterPageDisabled: {
       cover: [],
-      title: [],
+      title: [1, 2],
       foreword: [],
-      introduction: []
+      introduction: [1, 2]
     },
     highlightSearchMatches: true,
     inlineIllustrations: [],
     mediaCollectionMappings: {},
     order: [
       [1],
-      [2]
+      [2],
+      [3, 4]
     ]
   },
   ebooks: [],
@@ -88,7 +98,7 @@ export const config: Config = {
     elasticSearch: {
       enableFilters: true,
       enableSortOptions: true,
-      filterGroupsOpenByDefault: ["Years", "Type", "Genre", "Collection"],
+      filterGroupsOpenByDefault: ["Years", "Type", "CollectionId"],
       hitsPerPage: 15,
       indices: ["westermarck"],
       openReadingTextWithComments: false,
@@ -120,13 +130,6 @@ export const config: Config = {
         Type: {
           terms: {
             field: "text_type",
-            size: 40,
-            order: {_key: "asc"}
-          }
-        },
-        Genre: {
-          terms: {
-            field: "publication_data.genre.keyword",
             size: 40,
             order: {_key: "asc"}
           }
@@ -259,11 +262,11 @@ export const config: Config = {
       showURNButton: true,
       showViewOptionsButton: true,
       viewOptions: {
-        personInfo: true,
+        personInfo: false,
         placeInfo: false,
-        workInfo: true,
+        workInfo: false,
         paragraphNumbering: true,
-        pageBreakEdition: true
+        pageBreakEdition: false
       }
     },
     mediaCollection: {
