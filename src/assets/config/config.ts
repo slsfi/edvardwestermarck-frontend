@@ -137,8 +137,13 @@ export const config: Config = {
         CollectionId: {
           terms: {
             field: "collection_id",
-            size: 20,
-            order: {_key: "asc"}
+            size: 20
+          }
+        },
+        Language: {
+          terms: {
+            field: "text_language",
+            size: 20
           }
         },
         LetterSenderName: {

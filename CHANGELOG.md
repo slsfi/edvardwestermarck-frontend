@@ -8,33 +8,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
-
-
-## [2.2.1-granska.3] – 2025-11-12
-
 ### Changed
 
-- Update config. ([30578d1](https://github.com/slsfi/edvardwestermarck-frontend/commit/30578d143c8f797b42008d48532ca6d94203832d))
-- Update translations. ([0faed3b](https://github.com/slsfi/edvardwestermarck-frontend/commit/0faed3b64cc077409888777838b23ee9c9ead62f))
-- Update custom CSS. ([76fb61e](https://github.com/slsfi/edvardwestermarck-frontend/commit/76fb61e4ac7e6853fd98f171798ca267e6cd48af))
-
-
-
-## [2.2.1-granska.2] – 2025-11-12
-
-### Changed
-
-- Update config with article about Westermarck. ([7cb8c7d](https://github.com/slsfi/edvardwestermarck-frontend/commit/7cb8c7d13659ab6444d6425ea23196dd37c04d51))
-- Update config elastic search settings. ([42c01fb](https://github.com/slsfi/edvardwestermarck-frontend/commit/42c01fbb596a110b35b5053619cb62b5b1ee4f0b))
-- Update translations. ([c45bc68](https://github.com/slsfi/edvardwestermarck-frontend/commit/c45bc68add4aadb69d34fdbc1fb847a9a6f834cf), [97e5bcf](https://github.com/slsfi/edvardwestermarck-frontend/commit/97e5bcfc5c72790009874356f0f883124d1dd82d), [243cc8e](https://github.com/slsfi/edvardwestermarck-frontend/commit/243cc8e1515d0c05fbc2016f5db394092c96aebc))
-
-
-
-## [2.2.1-granska.1] – 2025-11-03
-
-### Changed
-
-- Update to base version [`2.2.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.2.1) from upstream, original repository. ([c69e327](https://github.com/slsfi/edvardwestermarck-frontend/commit/c69e327f1a90a167d44f49cae892a97b90411ebd))
+- Update config.
 
 
 
@@ -77,6 +53,34 @@ CollectionId: {
 - English translations for letter sender / addressee terms. ([9909bed](https://github.com/slsfi/digital-edition-frontend-ng/commit/9909bed1f79b34920fdbc96457e8925ea3e82320))
 - English translations for citing. ([730c6a8](https://github.com/slsfi/digital-edition-frontend-ng/commit/730c6a8cc18045122b09a55c9bf0234ca655f40a))
 - Missing trailing slash in URL for getting variants. ([9e9cdec](https://github.com/slsfi/digital-edition-frontend-ng/commit/9e9cdec6552793db424be843620c7b8a211c91a2))
+
+
+
+## [2.2.1-granska.3] – 2025-11-12
+
+### Changed
+
+- Update config. ([30578d1](https://github.com/slsfi/edvardwestermarck-frontend/commit/30578d143c8f797b42008d48532ca6d94203832d))
+- Update translations. ([0faed3b](https://github.com/slsfi/edvardwestermarck-frontend/commit/0faed3b64cc077409888777838b23ee9c9ead62f))
+- Update custom CSS. ([76fb61e](https://github.com/slsfi/edvardwestermarck-frontend/commit/76fb61e4ac7e6853fd98f171798ca267e6cd48af))
+
+
+
+## [2.2.1-granska.2] – 2025-11-12
+
+### Changed
+
+- Update config with article about Westermarck. ([7cb8c7d](https://github.com/slsfi/edvardwestermarck-frontend/commit/7cb8c7d13659ab6444d6425ea23196dd37c04d51))
+- Update config elastic search settings. ([42c01fb](https://github.com/slsfi/edvardwestermarck-frontend/commit/42c01fbb596a110b35b5053619cb62b5b1ee4f0b))
+- Update translations. ([c45bc68](https://github.com/slsfi/edvardwestermarck-frontend/commit/c45bc68add4aadb69d34fdbc1fb847a9a6f834cf), [97e5bcf](https://github.com/slsfi/edvardwestermarck-frontend/commit/97e5bcfc5c72790009874356f0f883124d1dd82d), [243cc8e](https://github.com/slsfi/edvardwestermarck-frontend/commit/243cc8e1515d0c05fbc2016f5db394092c96aebc))
+
+
+
+## [2.2.1-granska.1] – 2025-11-03
+
+### Changed
+
+- Update to base version [`2.2.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.2.1) from upstream, original repository. ([c69e327](https://github.com/slsfi/edvardwestermarck-frontend/commit/c69e327f1a90a167d44f49cae892a97b90411ebd))
 
 
 
