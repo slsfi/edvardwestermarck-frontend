@@ -38,6 +38,67 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 
 
+## [2.3.0] – 2025-11-17
+
+### Added
+
+- Support for filtering Elastic search results by language. Activate by adding `Language` to aggregations in the `elasticSearch` part of the config. If the Elastic search term field contains a valid language code, it is displayed as the language name in the active locale language. Config example: ([36013d4](https://github.com/slsfi/digital-edition-frontend-ng/commit/36013d4136ed695258585cfacb258c58be4d41a9))
+
+```typescript
+Language: {
+  terms: {
+    field: "text_language",
+    size: 20
+  }
+}
+```
+
+- Support for filtering Elastic search results by collection ID. Activate by adding `CollectionId` to aggregations in the `elasticSearch` part of the config. The title of the collection, not the ID, is displayed as the filter option name. If `multilingualCollectionTableOfContents` is set to true in the config, the collection name is displayed in the active locale language. Use this filter option instead of the collection title based `Collection` if your site has multiple locales, and the collection titles should be displayed with translated titles in the search. Config example: ([a984722](https://github.com/slsfi/digital-edition-frontend-ng/commit/a984722b50da59d2bf24fcd8bfc1b5c4a785377d))
+
+```typescript
+CollectionId: {
+  terms: {
+    field: "collection_id",
+    size: 20
+  }
+}
+```
+
+### Changed
+
+- Deps: update `angular/cli` to 20.3.10 and `angular/core` to 20.3.12. ([3ebcdea](https://github.com/slsfi/digital-edition-frontend-ng/commit/3ebcdeae9703a7f2dc85a09947e455fe86cb37b8))
+- Deps (dev): update `@types/jasmine` to 5.1.13. ([809bfe5](https://github.com/slsfi/digital-edition-frontend-ng/commit/809bfe5861c83b7fd0c33adaff6f8ccc447e6b94))
+- Deps (dev): update `@types/node` to 22.19.1. ([af22375](https://github.com/slsfi/digital-edition-frontend-ng/commit/af223750a7d9eee88a67d27ab2838706fddb5ced))
+- Deps: update transitive dependencies. ([0a16a07](https://github.com/slsfi/digital-edition-frontend-ng/commit/0a16a072d15689a1cd113189b5712b97f1ffc5b7))
+
+### Fixed
+
+- Show only active locale articles in content grid. ([f4db839](https://github.com/slsfi/digital-edition-frontend-ng/commit/f4db8399eca124e2eaae2e6ead5cc2e6dd68deb3))
+- English translations for letter sender / addressee terms. ([9909bed](https://github.com/slsfi/digital-edition-frontend-ng/commit/9909bed1f79b34920fdbc96457e8925ea3e82320))
+- English translations for citing. ([730c6a8](https://github.com/slsfi/digital-edition-frontend-ng/commit/730c6a8cc18045122b09a55c9bf0234ca655f40a))
+- Missing trailing slash in URL for getting variants. ([9e9cdec](https://github.com/slsfi/digital-edition-frontend-ng/commit/9e9cdec6552793db424be843620c7b8a211c91a2))
+
+
+
+## [2.2.2] – 2025-11-11
+
+### Changed
+
+- Migrate static-html component to zoneless-ready. ([57c9a41](https://github.com/slsfi/digital-edition-frontend-ng/commit/57c9a41779e9caea498156b128ca7b231538d964))
+- Deps: update `angular/cli` to 20.3.9 and `angular/core` to 20.3.10. ([a16c184](https://github.com/slsfi/digital-edition-frontend-ng/commit/a16c1845d2f2e8068708e0b709f70387570e16ba))
+- Deps: update `marked` to 16.4.2. ([044fd43](https://github.com/slsfi/digital-edition-frontend-ng/commit/044fd4340c0d6076fdfd70798a9ec4959568dc68))
+- Deps (dev): update `@types/node` to 22.19.0. ([71fd3a2](https://github.com/slsfi/digital-edition-frontend-ng/commit/71fd3a2c60b8158c921a6d3d50da0b8536e77381))
+
+### Fixed
+
+- Missing trailing slash in URL for getting manuscripts. ([7e5ccfc](https://github.com/slsfi/digital-edition-frontend-ng/commit/7e5ccfcdfab599abb2ff5bc4ba06dd46272406ca))
+
+### Removed
+
+- `extra_hosts` from `compose.yml`. ([4c56eca](https://github.com/slsfi/digital-edition-frontend-ng/commit/4c56eca8f7247a3c465a1ac6f898751c4f009034))
+
+
+
 ## [2.2.1] – 2025-10-31
 
 ### Added
@@ -1169,7 +1230,9 @@ siteLogoDimensions: {
 
 
 
-[unreleased]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.2.1...HEAD
+[unreleased]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.3.0...HEAD
+[2.3.0]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.2.2...2.3.0
+[2.2.2]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.2.1...2.2.2
 [2.2.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.2.0...2.2.1
 [2.2.0]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.1.1...2.2.0
 [2.1.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.1.0...2.1.1
