@@ -17,11 +17,11 @@
 // TEI common styles, used by multiple collection components.
 @use "TEI/tei-common";
 // TEI styles for the collection title page.
-// @use "TEI/tei-title";
+@use "TEI/tei-title";
 // TEI styles for the collection foreword page.
 // @use "TEI/tei-foreword";
 // TEI styles for the collection introduction page.
-// @use "TEI/tei-introduction";
+@use "TEI/tei-introduction";
 // TEI styles for the collection reading text component.
 @use "TEI/tei-readingtext";
 // TEI styles for the collection comments component.

@@ -384,3 +384,11 @@ page-article {
     }
   }
 }
+
+page-introduction {
+  div#toc-text {
+    ul > li > ul > li > a {
+      font-weight: normal;
+    }
+  }
+}

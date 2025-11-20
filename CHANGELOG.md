@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Changed
 
 - Update translations.
+- Update CSS.
 - Update to base version [`2.3.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.3.1) from upstream, original repository.
 
 
@@ -86,6 +87,25 @@ CollectionId: {
 
 
 
+## [2.2.2] – 2025-11-11
+
+### Changed
+
+- Migrate static-html component to zoneless-ready. ([57c9a41](https://github.com/slsfi/digital-edition-frontend-ng/commit/57c9a41779e9caea498156b128ca7b231538d964))
+- Deps: update `angular/cli` to 20.3.9 and `angular/core` to 20.3.10. ([a16c184](https://github.com/slsfi/digital-edition-frontend-ng/commit/a16c1845d2f2e8068708e0b709f70387570e16ba))
+- Deps: update `marked` to 16.4.2. ([044fd43](https://github.com/slsfi/digital-edition-frontend-ng/commit/044fd4340c0d6076fdfd70798a9ec4959568dc68))
+- Deps (dev): update `@types/node` to 22.19.0. ([71fd3a2](https://github.com/slsfi/digital-edition-frontend-ng/commit/71fd3a2c60b8158c921a6d3d50da0b8536e77381))
+
+### Fixed
+
+- Missing trailing slash in URL for getting manuscripts. ([7e5ccfc](https://github.com/slsfi/digital-edition-frontend-ng/commit/7e5ccfcdfab599abb2ff5bc4ba06dd46272406ca))
+
+### Removed
+
+- `extra_hosts` from `compose.yml`. ([4c56eca](https://github.com/slsfi/digital-edition-frontend-ng/commit/4c56eca8f7247a3c465a1ac6f898751c4f009034))
+
+
+
 ## [2.2.1-granska.3] – 2025-11-12
 
 ### Changed
@@ -111,25 +131,6 @@ CollectionId: {
 ### Changed
 
 - Update to base version [`2.2.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.2.1) from upstream, original repository. ([c69e327](https://github.com/slsfi/edvardwestermarck-frontend/commit/c69e327f1a90a167d44f49cae892a97b90411ebd))
-
-
-
-## [2.2.2] – 2025-11-11
-
-### Changed
-
-- Migrate static-html component to zoneless-ready. ([57c9a41](https://github.com/slsfi/digital-edition-frontend-ng/commit/57c9a41779e9caea498156b128ca7b231538d964))
-- Deps: update `angular/cli` to 20.3.9 and `angular/core` to 20.3.10. ([a16c184](https://github.com/slsfi/digital-edition-frontend-ng/commit/a16c1845d2f2e8068708e0b709f70387570e16ba))
-- Deps: update `marked` to 16.4.2. ([044fd43](https://github.com/slsfi/digital-edition-frontend-ng/commit/044fd4340c0d6076fdfd70798a9ec4959568dc68))
-- Deps (dev): update `@types/node` to 22.19.0. ([71fd3a2](https://github.com/slsfi/digital-edition-frontend-ng/commit/71fd3a2c60b8158c921a6d3d50da0b8536e77381))
-
-### Fixed
-
-- Missing trailing slash in URL for getting manuscripts. ([7e5ccfc](https://github.com/slsfi/digital-edition-frontend-ng/commit/7e5ccfcdfab599abb2ff5bc4ba06dd46272406ca))
-
-### Removed
-
-- `extra_hosts` from `compose.yml`. ([4c56eca](https://github.com/slsfi/digital-edition-frontend-ng/commit/4c56eca8f7247a3c465a1ac6f898751c4f009034))
 
 
 

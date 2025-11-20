@@ -431,6 +431,20 @@ div.tei {
     padding-left: 1em;
   }
 
+  /* LISTS */
+  ul {
+    margin: 1em 0;
+
+    &.hangingIndent {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        margin-inline-start: 1.5em;
+        text-indent: -1.5em;
+      }
+    }
+  }
 
 /*
   p.label_margin {
