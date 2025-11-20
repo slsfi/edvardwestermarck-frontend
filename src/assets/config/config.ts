@@ -13,7 +13,7 @@ export const config: Config = {
         { code: "en", label: "English", region: "GB" }
       ],
       defaultLanguage: "sv",
-      multilingualCollectionTableOfContents: false,
+      multilingualCollectionTableOfContents: true,
       multilingualReadingTextLanguages: [],
       multilingualNamedEntityData: false
     },
@@ -45,7 +45,7 @@ export const config: Config = {
       language: "sv",
       routeName: "om-edvard-westermarck",
       title: "Om Edvard Westermarck",
-      coverURL: "",
+      coverURL: "assets/images/covers/cover_pipatti_edvard_westermarck.jpg",
       enableTOC: true,
       downloadOptions: []
     },
@@ -54,7 +54,7 @@ export const config: Config = {
       language: "en",
       routeName: "about-edvard-westermarck",
       title: "About Edvard Westermarck",
-      coverURL: "",
+      coverURL: "assets/images/covers/cover_pipatti_edvard_westermarck.jpg",
       enableTOC: true,
       downloadOptions: []
     }
@@ -64,7 +64,7 @@ export const config: Config = {
     replaceImageAssetsPaths: false,
     enableLegacyIDs: false,
     enableMathJax: false,
-    firstTextItem: { 1: "1_37", 2: "2_1" },
+    firstTextItem: { 1: "1_148", 2: "2_1" },
     frontMatterPages: {
       cover: false,
       title: true,
