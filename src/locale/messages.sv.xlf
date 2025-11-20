@@ -489,7 +489,7 @@
     <unit id="ElasticSearch.Collection">
       <segment state="initial">
         <source>Delutgåva</source>
-        <target>Delutgåva</target>
+        <target>Textsamling</target>
       </segment>
     </unit>
     <unit id="ElasticSearch.CommentaryTo">
