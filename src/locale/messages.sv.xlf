@@ -489,7 +489,7 @@
     <unit id="ElasticSearch.Collection">
       <segment state="initial">
         <source>Delutgåva</source>
-        <target>Delutgåva</target>
+        <target>Textsamling</target>
       </segment>
     </unit>
     <unit id="ElasticSearch.CommentaryTo">
@@ -945,13 +945,13 @@
     <unit id="MainSideMenu.CollectionsGroup2">
       <segment state="initial">
         <source>Innehåll 2</source>
-        <target>Korrespondens</target>
+        <target>Brev</target>
       </segment>
     </unit>
     <unit id="MainSideMenu.CollectionsGroup3">
       <segment state="initial">
         <source>Innehåll 3</source>
-        <target>Innehåll 3</target>
+        <target>Böcker</target>
       </segment>
     </unit>
     <unit id="MainSideMenu.CollectionsGroup4">

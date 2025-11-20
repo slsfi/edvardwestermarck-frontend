@@ -238,11 +238,6 @@ top-menu {
       }
     }
   }
-
-  // Hide menu button until release
-  .main-menu-button {
-    display: none !important;
-  }
 }
 
 main-side-menu {
@@ -310,6 +305,29 @@ page-home {
   }
 }
 
+/* On page-about */
+table.website-change-log {
+  margin-top: 2em;
+
+  th,
+  td {
+    text-align: left;
+    padding: 0.25em 1.5em 0.25em 0;
+  }
+
+  th {
+    border-bottom: 1px solid #222;
+  }
+
+  td {
+    border-bottom: 1px solid #cecece;
+  }
+
+  tr:last-child td {
+    border-bottom: 0;
+  }
+}
+
 page-elastic-search {
   .info.markdown {
     /* Sökinstruktionerna i avancerade sökningen */
@@ -353,12 +371,24 @@ page-elastic-search {
   }
 }
 
-/* Cookiebanner */
-a.cky-banner-element {
-  cursor: pointer;
-  text-decoration: underline;
+page-article {
+  .markdown {
+    h2 {
+      margin-top: 2em;
+    }
+  }
+
+  .article-toc-list {
+    .article-toc-level-2 {
+      font-weight: normal;
+    }
+  }
 }
-#cky-consent,
-#cky-settings-popup {
-  font-family: var(--font-stack-app-base);
+
+page-introduction {
+  div#toc-text {
+    ul > li > ul > li > a {
+      font-weight: normal;
+    }
+  }
 }

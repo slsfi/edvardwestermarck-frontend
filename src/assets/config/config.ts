@@ -13,7 +13,7 @@ export const config: Config = {
         { code: "en", label: "English", region: "GB" }
       ],
       defaultLanguage: "sv",
-      multilingualCollectionTableOfContents: false,
+      multilingualCollectionTableOfContents: true,
       multilingualReadingTextLanguages: [],
       multilingualNamedEntityData: false
     },
@@ -39,29 +39,52 @@ export const config: Config = {
       collectionSideMenu: false
     }
   },
-  articles: [],
+  articles: [
+    {
+      id: "04-01",
+      language: "sv",
+      routeName: "om-edvard-westermarck",
+      title: "Om Edvard Westermarck",
+      coverURL: "assets/images/covers/cover_pipatti_edvard_westermarck.jpg",
+      enableTOC: true,
+      downloadOptions: []
+    },
+    {
+      id: "04-01",
+      language: "en",
+      routeName: "about-edvard-westermarck",
+      title: "About Edvard Westermarck",
+      coverURL: "assets/images/covers/cover_pipatti_edvard_westermarck.jpg",
+      enableTOC: true,
+      downloadOptions: []
+    }
+  ],
   collections: {
     addTEIClassNames: false,
     replaceImageAssetsPaths: false,
     enableLegacyIDs: false,
     enableMathJax: false,
-    firstTextItem: { 1: "1_37", 2: "2_1" },
+    firstTextItem: { 1: "1_148", 2: "2_1" },
     frontMatterPages: {
       cover: false,
-      title: false,
+      title: true,
       foreword: false,
-      introduction: false
+      introduction: true
     },
     frontMatterPageDisabled: {
       cover: [],
-      title: [],
+      title: [1, 2],
       foreword: [],
-      introduction: []
+      introduction: [1, 2]
     },
     highlightSearchMatches: true,
     inlineIllustrations: [],
     mediaCollectionMappings: {},
-    order: []
+    order: [
+      [1],
+      [2],
+      [3, 4]
+    ]
   },
   ebooks: [],
   page: {
@@ -70,19 +93,19 @@ export const config: Config = {
     },
     article: {
       showTextDownloadButton: false,
-      showURNButton: false
+      showURNButton: true
     },
     elasticSearch: {
       enableFilters: true,
       enableSortOptions: true,
-      filterGroupsOpenByDefault: ["Years", "Type", "Genre", "Collection"],
+      filterGroupsOpenByDefault: ["Type"],
       hitsPerPage: 15,
       indices: ["westermarck"],
       openReadingTextWithComments: false,
       textHighlightFragmentSize: 150,
       textHighlightType: "fvh",
       textTitleHighlightType: "fvh",
-      typeFilterGroupOptions: ["est", "ms"],
+      typeFilterGroupOptions: ["est", "ms", "inl", "tit"],
       fixedFilters: [
         {
           terms: {
@@ -91,43 +114,15 @@ export const config: Config = {
         },
         {
           terms: {
-            published: ["1"]
+            published: ["2"]
           }
         }
       ],
       additionalSourceFields: [],
       aggregations: {
-        Years: {
-          date_histogram: {
-            field: "orig_date_sort",
-            calendar_interval: "year",
-            format: "yyyy"
-          }
-        },
         Type: {
           terms: {
             field: "text_type",
-            size: 40,
-            order: {_key: "asc"}
-          }
-        },
-        Genre: {
-          terms: {
-            field: "publication_data.genre.keyword",
-            size: 40,
-            order: {_key: "asc"}
-          }
-        },
-        Collection: {
-          terms: {
-            field: "publication_data.collection_name.keyword",
-            size: 40,
-            order: {_key: "asc"}
-          }
-        },
-        Language: {
-          terms: {
-            field: "text_language",
             size: 40,
             order: {_key: "asc"}
           }
@@ -248,9 +243,9 @@ export const config: Config = {
       }
     },
     introduction: {
-      hasSeparateTOC: false,
-      showTextDownloadButton: false,
-      showURNButton: false,
+      hasSeparateTOC: true,
+      showTextDownloadButton: true,
+      showURNButton: true,
       showViewOptionsButton: true,
       viewOptions: {
         personInfo: false,
@@ -293,14 +288,14 @@ export const config: Config = {
         manuscripts: true,
         variants: false,
         illustrations: false,
-        legend: true,
+        legend: false,
         metadata: false
       },
       viewTypeDisabledCollections: {
         readingtext: [],
         comments: [],
         facsimiles: [],
-        manuscripts: [],
+        manuscripts: [1, 3, 4],
         variants: [],
         illustrations: [],
         legend: [],
@@ -309,7 +304,7 @@ export const config: Config = {
     },
     title: {
       loadContentFromMarkdown: false,
-      showURNButton: false,
+      showURNButton: true,
       showViewOptionsButton: true
     }
   },
@@ -322,7 +317,7 @@ export const config: Config = {
       categoricalSortingSecondaryKey: ""
     },
     contentGrid: {
-      includeArticles: false,
+      includeArticles: true,
       includeEbooks: false,
       includeMediaCollection: false,
       mediaCollectionCoverURL: "",
@@ -338,29 +333,29 @@ export const config: Config = {
     },
     mainSideMenu: {
       items: {
-        about: false,
-        articles: false,
+        about: true,
+        articles: true,
         ebooks: false,
-        collections: false,
+        collections: true,
         mediaCollections: false,
         indexKeywords: false,
         indexPersons: false,
         indexPlaces: false,
         indexWorks: false,
-        search: false
+        search: true
       },
       defaultExpanded: false,
-      ungroupArticles: false
+      ungroupArticles: true
     },
     manuscripts: {
       showTitle: false,
       showNormalizedToggle: true,
-      showOpenLegendButton: true
+      showOpenLegendButton: false
     },
     topMenu: {
-      showAboutButton: false,
-      showContentButton: false,
-      showElasticSearchButton: false,
+      showAboutButton: true,
+      showContentButton: true,
+      showElasticSearchButton: true,
       showLanguageButton: true
     },
     variants: {
