@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.3.0-granska.2] – 2025-11-20
+
 ### Changed
 
-- Update config and add cover images.
+- Update config and add cover images. ([7a307c5](https://github.com/slsfi/edvardwestermarck-frontend/commit/7a307c52c711d5be2a26084ca2e045bd988cd54f))
 
 
 
@@ -1291,6 +1295,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.3.0-granska.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.3.0-granska.1...2.3.0-granska.2
 [2.3.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.1-granska.3...2.3.0-granska.1
 [2.2.1-granska.3]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.1-granska.2...2.2.1-granska.3
 [2.2.1-granska.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.1-granska.1...2.2.1-granska.2
