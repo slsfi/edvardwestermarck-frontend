@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.3.1-production.1] – 2025-11-20
+
 ### Changed
 
-- Update to base version [`2.3.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.3.1) from upstream, original repository.
-- Update config, CSS and images for publication.
+- Update to base version [`2.3.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.3.1) from upstream, original repository. ([729c99d](https://github.com/slsfi/edvardwestermarck-frontend/commit/729c99dc9d1d5bb8e27802a6630c3a1dde4745eb))
+- Update config, CSS and images for publication. ([8e681a2](https://github.com/slsfi/edvardwestermarck-frontend/commit/8e681a28e96a65b384453877e183f7ae16d20b20))
 
 
 
@@ -1152,5 +1156,6 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.3.1-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.2-production.1...2.3.1-production.1
 [2.2.2-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.1-production.1...2.2.2-production.1
 [2.2.1-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/releases/tag/2.2.1-production.1
