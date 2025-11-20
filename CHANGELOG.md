@@ -8,6 +8,64 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Update to base version [`2.3.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.3.1) from upstream, original repository.
+
+
+
+## [2.3.1] – 2025-11-20
+
+### Changed
+
+- Deps: update `angular/cli` to 20.3.11 and `angular/core` to 20.3.13. ([9755ca8](https://github.com/slsfi/digital-edition-frontend-ng/commit/9755ca8bf8e33032820f757fb22a41c6eeb45297))
+
+### Fixed
+
+- Handle undefined language code in language name pipe. ([6b57fb4](https://github.com/slsfi/digital-edition-frontend-ng/commit/6b57fb40349d7c2c9402de8cc3c2b6f92653cc76))
+
+
+
+## [2.3.0] – 2025-11-17
+
+### Added
+
+- Support for filtering Elastic search results by language. Activate by adding `Language` to aggregations in the `elasticSearch` part of the config. If the Elastic search term field contains a valid language code, it is displayed as the language name in the active locale language. Config example: ([36013d4](https://github.com/slsfi/digital-edition-frontend-ng/commit/36013d4136ed695258585cfacb258c58be4d41a9))
+
+```typescript
+Language: {
+  terms: {
+    field: "text_language",
+    size: 20
+  }
+}
+```
+
+- Support for filtering Elastic search results by collection ID. Activate by adding `CollectionId` to aggregations in the `elasticSearch` part of the config. The title of the collection, not the ID, is displayed as the filter option name. If `multilingualCollectionTableOfContents` is set to true in the config, the collection name is displayed in the active locale language. Use this filter option instead of the collection title based `Collection` if your site has multiple locales, and the collection titles should be displayed with translated titles in the search. Config example: ([a984722](https://github.com/slsfi/digital-edition-frontend-ng/commit/a984722b50da59d2bf24fcd8bfc1b5c4a785377d))
+
+```typescript
+CollectionId: {
+  terms: {
+    field: "collection_id",
+    size: 20
+  }
+}
+```
+
+### Changed
+
+- Deps: update `angular/cli` to 20.3.10 and `angular/core` to 20.3.12. ([3ebcdea](https://github.com/slsfi/digital-edition-frontend-ng/commit/3ebcdeae9703a7f2dc85a09947e455fe86cb37b8))
+- Deps (dev): update `@types/jasmine` to 5.1.13. ([809bfe5](https://github.com/slsfi/digital-edition-frontend-ng/commit/809bfe5861c83b7fd0c33adaff6f8ccc447e6b94))
+- Deps (dev): update `@types/node` to 22.19.1. ([af22375](https://github.com/slsfi/digital-edition-frontend-ng/commit/af223750a7d9eee88a67d27ab2838706fddb5ced))
+- Deps: update transitive dependencies. ([0a16a07](https://github.com/slsfi/digital-edition-frontend-ng/commit/0a16a072d15689a1cd113189b5712b97f1ffc5b7))
+
+### Fixed
+
+- Show only active locale articles in content grid. ([f4db839](https://github.com/slsfi/digital-edition-frontend-ng/commit/f4db8399eca124e2eaae2e6ead5cc2e6dd68deb3))
+- English translations for letter sender / addressee terms. ([9909bed](https://github.com/slsfi/digital-edition-frontend-ng/commit/9909bed1f79b34920fdbc96457e8925ea3e82320))
+- English translations for citing. ([730c6a8](https://github.com/slsfi/digital-edition-frontend-ng/commit/730c6a8cc18045122b09a55c9bf0234ca655f40a))
+- Missing trailing slash in URL for getting variants. ([9e9cdec](https://github.com/slsfi/digital-edition-frontend-ng/commit/9e9cdec6552793db424be843620c7b8a211c91a2))
+
 
 
 ## [2.2.2-production.1] – 2025-11-11
@@ -15,14 +73,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Changed
 
 - Update to base version [`2.2.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.2.2) from upstream, original repository. ([424b152](https://github.com/slsfi/edvardwestermarck-frontend/commit/424b1521d93e75e7668143ffc5c1a7aa5a47d7f9))
-
-
-
-## [2.2.1-production.1] – 2025-11-10
-
-### Changed
-
-- Set up production configuration. ([e2c1ae7](https://github.com/slsfi/edvardwestermarck-frontend/commit/e2c1ae732b5c4f23adad0780714c43bcecf3823e))
 
 
 
@@ -42,6 +92,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Removed
 
 - `extra_hosts` from `compose.yml`. ([4c56eca](https://github.com/slsfi/digital-edition-frontend-ng/commit/4c56eca8f7247a3c465a1ac6f898751c4f009034))
+
+
+
+## [2.2.1-production.1] – 2025-11-10
+
+### Changed
+
+- Set up production configuration. ([e2c1ae7](https://github.com/slsfi/edvardwestermarck-frontend/commit/e2c1ae732b5c4f23adad0780714c43bcecf3823e))
 
 
 
@@ -1044,7 +1102,9 @@ siteLogoDimensions: {
 
 
 
-[unreleased]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.2.2...HEAD
+[unreleased]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.3.1...HEAD
+[2.3.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.3.0...2.3.1
+[2.3.0]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.2.2...2.3.0
 [2.2.2]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.2.1...2.2.2
 [2.2.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.2.0...2.2.1
 [2.2.0]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.1.1...2.2.0
