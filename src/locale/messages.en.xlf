@@ -1551,7 +1551,7 @@
     <unit id="Site.MetaDescription.Home">
       <segment state="initial">
         <source>En generell beskrivning av webbplatsen för sökmotorer.</source>
-        <target>The research of Edvard Westermarck.</target>
+        <target>Digital edition featuring letters, articles, and books by the founder of Finnish sociology.</target>
       </segment>
     </unit>
     <unit id="Site.Subtitle">

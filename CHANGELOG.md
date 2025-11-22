@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Translations and enabled text types in Elastic search.
+
 
 
 ## [2.3.1-granska.1] – 2025-11-20

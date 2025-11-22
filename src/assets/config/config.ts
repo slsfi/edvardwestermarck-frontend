@@ -105,7 +105,7 @@ export const config: Config = {
       textHighlightFragmentSize: 150,
       textHighlightType: "fvh",
       textTitleHighlightType: "fvh",
-      typeFilterGroupOptions: ["est", "ms"],
+      typeFilterGroupOptions: ["est", "ms", "inl", "tit"],
       fixedFilters: [
         {
           terms: {
