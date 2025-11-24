@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Update website change log CSS.
+
 
 
 ## [2.3.2-granska.1] – 2025-11-24
