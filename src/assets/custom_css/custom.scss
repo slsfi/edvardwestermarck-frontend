@@ -329,6 +329,10 @@ table.website-change-log {
 }
 
 page-elastic-search {
+  date-histogram {
+    --date-histogram-year-in-range-color: #2ec0ff;
+  }
+
   .info.markdown {
     /* Sökinstruktionerna i avancerade sökningen */
     details {
