@@ -8,12 +8,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.3.2-granska.1] – 2025-11-24
+
 ### Changed
 
-- Translations and enabled text types in Elastic search.
-- Update date histogram CSS.
-- Normalise cover image ratios.
-- Update to base version [`2.3.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.3.2) from upstream, original repository.
+- Translations and enabled text types in Elastic search. ([fb900d2](https://github.com/slsfi/edvardwestermarck-frontend/commit/fb900d2e3249212ac0ef28c003e17c885b57d23c))
+- Update date histogram CSS. ([7b2a2ce](https://github.com/slsfi/edvardwestermarck-frontend/commit/7b2a2ce7ca7e001e9bbd09b28fefc687f6c3589d))
+- Normalise cover image ratios. ([d49934a](https://github.com/slsfi/edvardwestermarck-frontend/commit/d49934a33ce73c7e05d1a879e5f9ff1645b68a12))
+- Update to base version [`2.3.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.3.2) from upstream, original repository. ([bf58174](https://github.com/slsfi/edvardwestermarck-frontend/commit/bf58174f7079c39bf0c1481ebb73350d0c3514b9))
 
 
 
@@ -1343,6 +1347,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.3.2-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.3.1-granska.1...2.3.2-granska.1
 [2.3.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.3.0-granska.2...2.3.1-granska.1
 [2.3.0-granska.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.3.0-granska.1...2.3.0-granska.2
 [2.3.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.1-granska.3...2.3.0-granska.1
