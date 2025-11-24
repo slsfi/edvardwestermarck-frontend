@@ -8,13 +8,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.3.2-production.1] – 2025-11-24
+
 ### Changed
 
-- Normalise cover image ratios.
-- Update date histogram CSS.
-- Update website change log CSS.
-- Enable year, collection and language filtering in Elastic search.
-- Update to base version [`2.3.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.3.2) from upstream, original repository.
+- Normalise cover image ratios. ([8c6d1cf](https://github.com/slsfi/edvardwestermarck-frontend/commit/8c6d1cf2df75b41e700680fdd7c509644f4159ff))
+- Update date histogram CSS. ([f24abe2](https://github.com/slsfi/edvardwestermarck-frontend/commit/f24abe25662bc5f7a8d57f2d4c68108613b235ab))
+- Update website change log CSS. ([d1d3158](https://github.com/slsfi/edvardwestermarck-frontend/commit/d1d31582415850678f31a4edcff887deef1d768e))
+- Enable year, collection and language filtering in Elastic search. ([6201772](https://github.com/slsfi/edvardwestermarck-frontend/commit/62017727407fe59c64fa493b806fe31ed705f5e8))
+- Update to base version [`2.3.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.3.2) from upstream, original repository. ([c1e9136](https://github.com/slsfi/edvardwestermarck-frontend/commit/c1e9136f09611545ab8f3c717b0aea85c0b4de76))
 
 
 
@@ -1181,6 +1185,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.3.2-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.3.1-production.1...2.3.2-production.1
 [2.3.1-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.2-production.1...2.3.1-production.1
 [2.2.2-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.1-production.1...2.2.2-production.1
 [2.2.1-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/releases/tag/2.2.1-production.1
