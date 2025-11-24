@@ -98,7 +98,7 @@ export const config: Config = {
     elasticSearch: {
       enableFilters: true,
       enableSortOptions: true,
-      filterGroupsOpenByDefault: ["Type"],
+      filterGroupsOpenByDefault: ["Type", "Years", "CollectionId"],
       hitsPerPage: 15,
       indices: ["westermarck"],
       openReadingTextWithComments: false,
@@ -120,11 +120,30 @@ export const config: Config = {
       ],
       additionalSourceFields: [],
       aggregations: {
+        Years: {
+          date_histogram: {
+            field: "orig_date_sort",
+            calendar_interval: "year",
+            format: "yyyy"
+          }
+        },
         Type: {
           terms: {
             field: "text_type",
             size: 40,
             order: {_key: "asc"}
+          }
+        },
+        CollectionId: {
+          terms: {
+            field: "collection_id",
+            size: 20
+          }
+        },
+        Language: {
+          terms: {
+            field: "text_language",
+            size: 20
           }
         },
         LetterSenderName: {

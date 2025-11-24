@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - Normalise cover image ratios.
 - Update date histogram CSS.
 - Update website change log CSS.
+- Enable year, collection and language filtering in Elastic search.
 - Update to base version [`2.3.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.3.2) from upstream, original repository.
 
 
