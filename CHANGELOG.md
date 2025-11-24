@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 - Translations and enabled text types in Elastic search.
 - Update date histogram CSS.
+- Normalise cover image ratios.
 - Update to base version [`2.3.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.3.2) from upstream, original repository.
 
 
