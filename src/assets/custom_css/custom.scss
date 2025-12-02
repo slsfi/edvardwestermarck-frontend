@@ -272,6 +272,9 @@ page-home {
           .banner-subtitle {
             text-shadow: #000 1px 0 5px, #000 1px 0 10px, #000 0 0 5px, #000 0 0 20px, #000 0 0 50px;
           }
+          .banner-subtitle {
+            font-size: calc(1.25rem + 0.35vw);
+          }
         }
         // on medium screen widths move title to the left so it's not on top of the portrait of EW
         @media screen and (min-width: 560px) and (max-width: 1400px) {
