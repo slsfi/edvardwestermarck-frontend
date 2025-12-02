@@ -8,11 +8,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.4.1-production.1] – 2025-12-02
+
 ### Changed
 
-- Update site subtitle CSS on small screens.
-- Update website change log CSS.
-- Update to base version [`2.4.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.1) from upstream, original repository.
+- Update site subtitle CSS on small screens. ([0d7e602](https://github.com/slsfi/edvardwestermarck-frontend/commit/0d7e602382ca0224e7d9263d087c015929843db9))
+- Update website change log CSS. ([f65d274](https://github.com/slsfi/edvardwestermarck-frontend/commit/f65d2742a6eb4b40b836d93c28d8d6aedfcbad8f))
+- Update to base version [`2.4.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.1) from upstream, original repository. ([7822f6c](https://github.com/slsfi/edvardwestermarck-frontend/commit/7822f6ce7e256020cd4c6073b484a384b218a4e6))
 
 
 
@@ -1223,6 +1227,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.4.1-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.3.2-production.1...2.4.1-production.1
 [2.3.2-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.3.1-production.1...2.3.2-production.1
 [2.3.1-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.2-production.1...2.3.1-production.1
 [2.2.2-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.1-production.1...2.2.2-production.1
