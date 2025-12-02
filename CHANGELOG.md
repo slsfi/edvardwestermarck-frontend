@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Changed
 
 - Update site subtitle CSS on small screens.
+- Update website change log CSS.
 - Update to base version [`2.4.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.1) from upstream, original repository.
 
 
