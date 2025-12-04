@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.4.1-granska.2] – 2025-12-04
+
 ### Changed
 
-- Update common CSS for TEI texts.
+- Update common CSS for TEI texts. ([ad22e4f](https://github.com/slsfi/edvardwestermarck-frontend/commit/ad22e4f11dedc75b8f03b15e321312c8d05597a2), [180da25](https://github.com/slsfi/edvardwestermarck-frontend/commit/180da2568af811a34b201936733b1a7dc79f70b9))
 
 
 
@@ -1393,6 +1397,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.4.1-granska.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.1-granska.1...2.4.1-granska.2
 [2.4.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.3.2-granska.1...2.4.1-granska.1
 [2.3.2-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.3.1-granska.1...2.3.2-granska.1
 [2.3.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.3.0-granska.2...2.3.1-granska.1
