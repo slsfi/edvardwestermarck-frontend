@@ -89,6 +89,15 @@ div.tei {
       text-align: center;
       text-indent: 0;
     }
+
+    &.part-title { /* Matches style of heading with .part classname */
+      font-size: 1.2353em; /* 21px when 1em = 17px */
+      font-variant: small-caps;
+      line-height: 1.35;
+      margin: 1.375em 0 1em 0;
+      text-align: center;
+      text-indent: 0;
+    }
   }
 
   .noIndent,
