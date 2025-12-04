@@ -110,12 +110,13 @@ div.tei {
     text-align: right;
   }
 
-  .lg,
-  .poem.incorp .lg {
+  .lg  {
     margin: 1em 0;
   }
-  .prose .lg {
+  .prose .lg,
+  .poem.incorp .lg {
     margin-left: 2.5em;
+    margin-right: 2.5em;
   }
 
   blockquote {
@@ -123,6 +124,37 @@ div.tei {
     font-size: 1em;
     line-height: 1.6em;
     margin: 1em 30px;
+  }
+
+  .byline {
+    text-align: center;
+  }
+
+  .lg {
+    .l {
+      &.indent {
+        margin-left: 2.5em;
+      }
+
+      &.center {
+        display: inline-block;
+        width: 100%;
+      }
+    }
+  }
+
+  .opener {
+    .epigraph {
+      &.quote,
+      &.bibl {
+        align-items: last baseline;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9412em;
+        margin-right: 2.5em;
+        text-indent: 0;
+      }
+    }
   }
 
 
@@ -175,6 +207,7 @@ div.tei {
   hr.milestone {
     &.asterisk,
     &.dashedLine {
+      color: #222;
       height: auto;
       border: none;
       background-color: transparent;
