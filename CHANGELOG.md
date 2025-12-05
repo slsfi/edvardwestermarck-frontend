@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.4.1-production.2] – 2025-12-05
+
 ### Changed
 
-- Update common CSS for TEI texts.
-- Update site subtitle CSS on small screens.
+- Update common CSS for TEI texts. ([e561e41](https://github.com/slsfi/edvardwestermarck-frontend/commit/e561e41f9c00676790adde39c2f182a488e4e1b8))
+- Update site subtitle CSS on small screens. ([23c47bb](https://github.com/slsfi/edvardwestermarck-frontend/commit/23c47bb9eab9ccec0b071b56eed1096a1321f26c))
 
 
 
@@ -1232,6 +1236,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.4.1-production.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.1-production.1...2.4.1-production.2
 [2.4.1-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.3.2-production.1...2.4.1-production.1
 [2.3.2-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.3.1-production.1...2.3.2-production.1
 [2.3.1-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.2.2-production.1...2.3.1-production.1
