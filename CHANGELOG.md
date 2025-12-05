@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Update site subtitle CSS on small screens.
+
 
 
 ## [2.4.1-granska.2] – 2025-12-04
