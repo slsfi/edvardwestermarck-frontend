@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.4.2-granska.1] – 2025-12-18
+
 ### Changed
 
-- Update site subtitle CSS on small screens.
-- Update to base version [`2.4.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.2) from upstream, original repository.
+- Update site subtitle CSS on small screens. ([9288031](https://github.com/slsfi/edvardwestermarck-frontend/commit/9288031959c86c868aa6b7e104d17ebaa55e04e1))
+- Update to base version [`2.4.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.2) from upstream, original repository. ([9419ecc](https://github.com/slsfi/edvardwestermarck-frontend/commit/9419eccc730742617f0be8e4ab45435cedb287d2))
 
 
 
@@ -1413,6 +1417,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.4.2-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.1-granska.2...2.4.2-granska.1
 [2.4.1-granska.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.1-granska.1...2.4.1-granska.2
 [2.4.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.3.2-granska.1...2.4.1-granska.1
 [2.3.2-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.3.1-granska.1...2.3.2-granska.1
