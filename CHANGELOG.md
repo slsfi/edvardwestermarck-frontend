@@ -10,7 +10,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ### Changed
 
-- Update to base version [`2.4.4`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.4) from upstream, original repository.
+- Update to base version [`2.4.6`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.6) from upstream, original repository.
+
+
+
+## [2.4.6] – 2026-02-13
+
+### Changed
+
+- Update `nginx` to 1.28.2. ([3115154](https://github.com/slsfi/digital-edition-frontend-ng/commit/311515499f23f66474373759700974b8055c8849))
+
+
+
+## [2.4.5] – 2026-02-13
+
+### Changed
+
+- Update GitHub Actions in the Docker build-and-push workflow. ([5ca772c](https://github.com/slsfi/digital-edition-frontend-ng/commit/5ca772c73375e2f5c536c83a4a825ca4ce61b019))
+- Harden Docker build and refresh docs. ([a37575c](https://github.com/slsfi/digital-edition-frontend-ng/commit/a37575c7be1b1df29e7e2f0982ca9bf764d5d8b0))
+- Update README. ([5a714d2](https://github.com/slsfi/digital-edition-frontend-ng/commit/5a714d2ecaad5650ce56125e9a91ca475804f3c5))
+- Deps: update `marked` to 17.0.2. ([fefe9c7](https://github.com/slsfi/digital-edition-frontend-ng/commit/fefe9c786e9cdcc85146bb9a58c39234abddb58b))
+- Deps (dev): update `@types/node` to 22.19.11. ([1e8f8a4](https://github.com/slsfi/digital-edition-frontend-ng/commit/1e8f8a44f8a6eec1504ad3e3c0dd44fc3cdc53f4))
+- Deps: update transitive dependencies. ([b82405e](https://github.com/slsfi/digital-edition-frontend-ng/commit/b82405e0f3278d561c6d7cf3d8ab8efb4de50102))
 
 
 
@@ -1400,7 +1421,9 @@ siteLogoDimensions: {
 
 
 
-[unreleased]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.4.4...HEAD
+[unreleased]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.4.6...HEAD
+[2.4.6]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.4.5...2.4.6
+[2.4.5]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.4.4...2.4.5
 [2.4.4]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.4.3...2.4.4
 [2.4.3]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.4.2...2.4.3
 [2.4.2]: https://github.com/slsfi/digital-edition-frontend-ng/compare/2.4.1...2.4.2
