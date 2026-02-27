@@ -11,7 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Changed
 
 - Update to base version [`2.5.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.5.0) from upstream, original repository.
-- Config: enable feature based routes.
+- Config: enable feature based routes and disable static collection menus.
 
 
 
