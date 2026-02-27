@@ -8,10 +8,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+
+## [2.5.0-granska.1] – 2026-02-27
+
 ### Changed
 
-- Update to base version [`2.5.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.5.0) from upstream, original repository.
-- Config: enable feature based routes and disable static collection menus.
+- Update to base version [`2.5.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.5.0) from upstream, original repository. ([d8e6b71](https://github.com/slsfi/edvardwestermarck-frontend/commit/d8e6b71b856f3a0f328d5e3dbf7f7d95cfb73e40))
+- Config: enable feature based routes and disable static collection menus. ([cd44379](https://github.com/slsfi/edvardwestermarck-frontend/commit/cd44379b18992b9401b151a9edfa292483dbfcd9), [e13d02b](https://github.com/slsfi/edvardwestermarck-frontend/commit/e13d02be81dc66faaf0d60d1a8b16a651b1a17f5))
 
 
 
@@ -1522,6 +1527,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.5.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.6-granska.1...2.5.0-granska.1
 [2.4.6-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.2-granska.1...2.4.6-granska.1
 [2.4.2-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.1-granska.2...2.4.2-granska.1
 [2.4.1-granska.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.1-granska.1...2.4.1-granska.2
