@@ -11,6 +11,22 @@ import { CollectionSideMenuComponent } from '@components/menus/collection-side/c
 import { MainSideMenuComponent } from '@components/menus/main-side/main-side-menu.component';
 import { StaticHtmlComponent } from '@components/static-html/static-html.component';
 import { TopMenuComponent } from '@components/menus/top/top-menu.component';
+import {
+  BrowserRouteStateSourceService,
+  RouteStateSourceService
+} from '@services/route-state-source.service';
+import {
+  BrowserCollectionTextViewsQueryParamSyncService,
+  CollectionTextViewsQueryParamSyncService
+} from '@services/collection-text-views-query-param-sync.service';
+import {
+  BrowserRouterNavigationSourceService,
+  RouterNavigationSourceService
+} from '@services/router-navigation-source.service';
+import {
+  BrowserRouterPreloadingStrategyService,
+  RouterPreloadingStrategyService
+} from '@services/router-preloading-strategy.service';
 
 
 @NgModule({
@@ -31,7 +47,23 @@ import { TopMenuComponent } from '@components/menus/top/top-menu.component';
   ],
   providers: [
     provideHttpClient(withFetch()),
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    {
+      provide: RouteStateSourceService,
+      useClass: BrowserRouteStateSourceService
+    },
+    {
+      provide: CollectionTextViewsQueryParamSyncService,
+      useClass: BrowserCollectionTextViewsQueryParamSyncService
+    },
+    {
+      provide: RouterNavigationSourceService,
+      useClass: BrowserRouterNavigationSourceService
+    },
+    {
+      provide: RouterPreloadingStrategyService,
+      useClass: BrowserRouterPreloadingStrategyService
+    }
   ],
   bootstrap: [AppComponent]
 })

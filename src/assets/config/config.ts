@@ -33,7 +33,8 @@ export const config: Config = {
     },
     prebuild: {
       sitemap: true,
-      staticCollectionMenus: true
+      staticCollectionMenus: true,
+      featureBasedRoutes: false
     },
     ssr: {
       collectionSideMenu: false
@@ -361,7 +362,11 @@ export const config: Config = {
         indexPersons: false,
         indexPlaces: false,
         indexWorks: false,
-        search: true
+        search: true,
+        cookiePolicy: false,
+        privacyPolicy: false,
+        termsOfUse: false,
+        accessibilityStatement: false,
       },
       defaultExpanded: false,
       ungroupArticles: true
