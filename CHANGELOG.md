@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.6.1-granska.1] – 2026-03-13
+
 ### Changed
 
-- Update to base version [`2.6.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.1) from upstream, original repository.
-- Enable cookie policy page in config.
+- Update to base version [`2.6.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.1) from upstream, original repository. ([1f2c022](https://github.com/slsfi/edvardwestermarck-frontend/commit/1f2c022b1e8b04f071726ddf950249b58c10abed))
+- Enable cookie policy page in config. ([87d09f7](https://github.com/slsfi/edvardwestermarck-frontend/commit/87d09f7156412d642646cfb4c839fdf76fd54a47))
 
 
 
@@ -1594,6 +1598,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.6.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.5.0-granska.1...2.6.1-granska.1
 [2.5.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.6-granska.1...2.5.0-granska.1
 [2.4.6-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.2-granska.1...2.4.6-granska.1
 [2.4.2-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.1-granska.2...2.4.2-granska.1
