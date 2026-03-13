@@ -4,7 +4,10 @@ const path = require('path');
 const {
   extractRouteBlocks,
   extractRoutesArrayBody,
+  getAuthProtectedRoutePaths,
+  extractAuthProtectedRoutePaths,
   getRoutePath,
+  isAuthProtectedRouteBlock,
   stripCommentsPreserveLiterals
 } = require('../prebuild-generate-routes');
 
@@ -96,6 +99,58 @@ test('getRoutePath supports single, double and template literal paths', () => {
   assert.strictEqual(getRoutePath(`{ redirectTo: '' }`), null);
 });
 
+test('isAuthProtectedRouteBlock detects authGuard in canActivate array', () => {
+  assert.strictEqual(
+    isAuthProtectedRouteBlock(`{ path: 'account', canActivate: [authGuard] }`),
+    true
+  );
+  assert.strictEqual(
+    isAuthProtectedRouteBlock(`{ path: 'account', canActivate: [authGuard, otherGuard] }`),
+    true
+  );
+  assert.strictEqual(
+    isAuthProtectedRouteBlock(`{ path: 'about', canActivate: [otherGuard] }`),
+    false
+  );
+});
+
+test('isAuthProtectedRouteBlock detects authFeatureEnabledMatchGuard in canMatch array', () => {
+  assert.strictEqual(
+    isAuthProtectedRouteBlock(`{ path: 'forgot-password', canMatch: [authFeatureEnabledMatchGuard] }`),
+    true
+  );
+  assert.strictEqual(
+    isAuthProtectedRouteBlock(`{ path: 'reset-password', canMatch: [authFeatureEnabledMatchGuard, otherGuard] }`),
+    true
+  );
+  assert.strictEqual(
+    isAuthProtectedRouteBlock(`{ path: 'about', canMatch: [otherGuard] }`),
+    false
+  );
+});
+
+test('extractAuthProtectedRoutePaths returns unique client-rendered auth route paths', () => {
+  const blocks = [
+    `{ path: 'account', canActivate: [authGuard] }`,
+    `{ path: 'search', canActivate: [authGuard, anotherGuard] }`,
+    `{ path: 'forgot-password', canMatch: [authFeatureEnabledMatchGuard] }`,
+    `{ path: 'reset-password', canMatch: [authFeatureEnabledMatchGuard] }`,
+    `{ path: 'about' }`,
+    `{ path: 'account', canActivate: [authGuard] }`
+  ];
+  const paths = extractAuthProtectedRoutePaths(blocks);
+  assert.deepStrictEqual(paths, ['account', 'forgot-password', 'reset-password', 'search']);
+});
+
+test('getAuthProtectedRoutePaths returns empty list when auth is disabled', () => {
+  const blocks = [
+    `{ path: 'account', canActivate: [authGuard] }`,
+    `{ path: 'search', canActivate: [authGuard, anotherGuard] }`
+  ];
+  const paths = getAuthProtectedRoutePaths(blocks, false);
+  assert.deepStrictEqual(paths, []);
+});
+
 test('stripCommentsPreserveLiterals keeps string literals and length stable', () => {
   const source = `const a = "/* not a comment */"; // remove this
 const b = '// also not a comment';
@@ -120,6 +175,15 @@ test('current app.routes.ts can be parsed into route blocks', () => {
   assert.ok(blocks.length > 0);
   assert.ok(paths.includes(''));
   assert.ok(paths.includes('**'));
+});
+
+test('current app.routes.ts yields no protected paths when auth is disabled', () => {
+  const routesPath = path.join(__dirname, '../src/app/app.routes.ts');
+  const source = fs.readFileSync(routesPath, 'utf-8');
+  const blocks = extractRouteBlocks(source);
+  const paths = getAuthProtectedRoutePaths(blocks, false);
+
+  assert.deepStrictEqual(paths, []);
 });
 
 let passed = 0;

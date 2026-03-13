@@ -27,6 +27,7 @@ export class AppComponent implements OnInit {
   readonly enableCollectionSideMenuSSR: boolean = config.app?.ssr?.collectionSideMenu ?? false;
   readonly prebuiltCollectionMenus: boolean = config.app?.prebuild?.staticCollectionMenus ?? true;
   readonly enableRouterLoadingBar: boolean = config.app?.enableRouterLoadingBar ?? false;
+  readonly authEnabled: boolean = config?.app?.auth?.enabled === true;
 
   appIsStarting: boolean = true;
   collectionID: string = '';
@@ -167,6 +168,18 @@ export class AppComponent implements OnInit {
         return;
       case 'search':
         this.headService.setTitle([$localize`:@@TopMenu.Search:Sök`]);
+        return;
+      case 'register':
+        this.headService.setTitle([$localize`:@@Register.Title:Skapa användarkonto`]);
+        return;
+      case 'forgot-password':
+        this.headService.setTitle([$localize`:@@ForgotPassword.Title:Glömt lösenordet?`]);
+        return;
+      case 'change-password':
+        this.headService.setTitle([$localize`:@@ForgotPassword.ChangeTitle:Ändra lösenord`]);
+        return;
+      case 'reset-password':
+        this.headService.setTitle([$localize`:@@ResetPassword.Title:Nytt lösenord`]);
         return;
       default:
         !routeBasePath && this.headService.setTitle();
