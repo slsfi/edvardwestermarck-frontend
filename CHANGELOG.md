@@ -13,6 +13,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - Update to base version [`2.6.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.1) from upstream, original repository.
 - Enable feature based routes and separate cookie policy page in config.
 
+### Fixed
+
+- Scripts in `package.json`.
+
 
 
 ## [2.6.1] – 2026-03-13
