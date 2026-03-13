@@ -8,14 +8,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.6.1-production.1] – 2026-03-13
+
 ### Changed
 
-- Update to base version [`2.6.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.1) from upstream, original repository.
-- Enable feature based routes and separate cookie policy page in config.
+- Update to base version [`2.6.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.1) from upstream, original repository. ([287a357](https://github.com/slsfi/edvardwestermarck-frontend/commit/287a357c13d0f6a3cdd6f7ee259151c69014a188))
+- Enable feature based routes and separate cookie policy page in config. ([3f0e703](https://github.com/slsfi/edvardwestermarck-frontend/commit/3f0e70353b27b6988b68e73202f8ebf35a71dbf0))
 
 ### Fixed
 
-- Scripts in `package.json`.
+- Scripts in `package.json`. ([98eab5f](https://github.com/slsfi/edvardwestermarck-frontend/commit/98eab5f6dcd612d175368f73bcf3f23b9d600fce))
 
 
 
@@ -1427,6 +1431,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.6.1-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.6-production.1...2.6.1-production.1
 [2.4.6-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.2-production.1...2.4.6-production.1
 [2.4.2-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.1-production.2...2.4.2-production.1
 [2.4.1-production.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.1-production.1...2.4.1-production.2
