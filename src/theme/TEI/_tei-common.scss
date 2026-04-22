@@ -310,7 +310,9 @@ div.tei {
     font-weight: bold;
   }
   .encircled {
-    border: 1px solid gray;
+    border: 1px solid #808080;
+    border-radius: 0.75em;
+    padding: 0 0.25em;
   }
   .expanded {
     letter-spacing: 0.1177em;
