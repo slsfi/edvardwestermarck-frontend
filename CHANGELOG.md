@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Fixed
+
+- CSS for general notes in openers and for letterparts.
+
 
 
 ## [2.6.5-production.1] – 2026-04-20
