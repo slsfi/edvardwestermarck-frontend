@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Fixed
 
 - CSS for general notes in openers and for letterparts.
+- CSS for encircled text.
 
 
 
