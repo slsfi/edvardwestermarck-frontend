@@ -380,6 +380,10 @@ div.tei {
     color: #737373;
   }
 
+  .form-shift {
+    font-family: var(--font-stack-tei-formshift, var(--font-stack-app-base));
+  }
+
 
   /* TABLES */
   .table-wrapper {
