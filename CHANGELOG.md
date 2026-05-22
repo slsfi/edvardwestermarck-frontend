@@ -8,15 +8,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.7.0-granska.1] – 2026-05-22
+
 ### Changed
 
-- Update to base version [`2.7.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.4) from upstream, original repository.
+- Update to base version [`2.7.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.4) from upstream, original repository. ([4c08227](https://github.com/slsfi/edvardwestermarck-frontend/commit/4c08227e74d1ee177eb31adfee0941f5aef632d0))
 
 ### Fixed
 
-- CSS for general notes in openers and for letterparts.
-- CSS for encircled text.
-- CSS for form-shift.
+- CSS for general notes in openers and for letterparts. ([2b0fea5](https://github.com/slsfi/edvardwestermarck-frontend/commit/2b0fea5549e7d4c0b2bd22c4a4f2d57be8013ec4))
+- CSS for encircled text. ([798e358](https://github.com/slsfi/edvardwestermarck-frontend/commit/798e35834f8fdd4e29d671e39106f06974d8c606))
+- CSS for form-shift. ([c6b0711](https://github.com/slsfi/edvardwestermarck-frontend/commit/c6b0711b4b191e056c98c45b5b9955e2fb667dfe))
 
 
 
@@ -1725,6 +1729,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.7.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.6.4-granska.1...2.7.0-granska.1
 [2.6.4-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.6.3-granska.1...2.6.4-granska.1
 [2.6.3-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.6.1-granska.1...2.6.3-granska.1
 [2.6.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.5.0-granska.1...2.6.1-granska.1
