@@ -8,15 +8,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.7.0-production.1] – 2026-05-22
+
 ### Changed
 
-- Update to base version [`2.7.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.7.0) from upstream, original repository.
+- Update to base version [`2.7.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.7.0) from upstream, original repository. ([1661cae](https://github.com/slsfi/edvardwestermarck-frontend/commit/1661cae10e47008a2f0f786bd6598113fdfc86fa))
 
 ### Fixed
 
-- CSS for general notes in openers and for letterparts.
-- CSS for encircled text.
-- CSS for form-shift.
+- CSS for general notes in openers and for letterparts. ([69489ae](https://github.com/slsfi/edvardwestermarck-frontend/commit/69489aed45bc511cc31dd5e6ab4f44aafa0154b5))
+- CSS for encircled text. ([c2e5ffe](https://github.com/slsfi/edvardwestermarck-frontend/commit/c2e5ffe3d47363a5186e328a958e5bd4ed0581f9))
+- CSS for form-shift. ([4e62886](https://github.com/slsfi/edvardwestermarck-frontend/commit/4e62886e48bf7e1eb1cb1350ce9d8427aae9275e))
 
 
 
@@ -1558,6 +1562,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.7.0-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.6.5-production.1...2.7.0-production.1
 [2.6.5-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.6.3-production.1...2.6.5-production.1
 [2.6.3-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.6.1-production.1...2.6.3-production.1
 [2.6.1-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.4.6-production.1...2.6.1-production.1
