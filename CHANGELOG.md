@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.7.5-production.1] – 2026-06-18
+
 ### Changed
 
-- Update to base version [`2.7.5`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.7.5) from upstream, original repository.
+- Update to base version [`2.7.5`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.7.5) from upstream, original repository. ([018c550](https://github.com/slsfi/edvardwestermarck-frontend/commit/018c5501edca49a43dddf3029673adf4942b49f4))
 
 
 
@@ -1640,6 +1644,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.7.5-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.0-production.1...2.7.5-production.1
 [2.7.0-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.6.5-production.1...2.7.0-production.1
 [2.6.5-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.6.3-production.1...2.6.5-production.1
 [2.6.3-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.6.1-production.1...2.6.3-production.1
