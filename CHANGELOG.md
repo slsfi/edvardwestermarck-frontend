@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Added
+
+- Styling for figures in TEI-texts.
+
 
 
 ## [2.7.5-granska.1] – 2026-06-18

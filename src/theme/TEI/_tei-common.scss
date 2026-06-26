@@ -247,9 +247,156 @@ div.tei {
 
 
   /* FIGURES */
-  figcaption {
+  figure {
+    display: block;
+    margin-block: 1em;
+    margin-inline: 0;
+    max-inline-size: 100%;
+
+    &.fig-full {
+      clear: both;
+      inline-size: 100%;
+    }
+
+    &.fig-left,
+    &.fig-center,
+    &.fig-right {
+      inline-size: fit-content;
+    }
+
+    &.fig-left {
+      margin-inline-start: 0;
+      margin-inline-end: auto;
+    }
+
+    &.fig-center {
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      text-align: center;
+    }
+
+    &.fig-right {
+      margin-inline-start: auto;
+      margin-inline-end: 0;
+    }
+
+    &.fig-float-left {
+      float: left;
+      margin-inline-end: 1em;
+      margin-block: 0.25em 0.75em;
+      max-inline-size: 40%;
+    }
+
+    &.fig-float-right {
+      float: right;
+      margin-inline-start: 1em;
+      margin-block: 0.25em 0.75em;
+      max-inline-size: 40%;
+    }
+  }
+
+  .inline-figure {
+    display: inline-block;
+    margin-inline: 0.25em;
+    text-align: center;
+    vertical-align: baseline;
+    max-inline-size: 100%;
+
+    &.fig-full,
+    &.fig-left,
+    &.fig-center,
+    &.fig-right {
+      display: block;
+      margin-block: 1em;
+    }
+
+    &.fig-full {
+      clear: both;
+      inline-size: 100%;
+      margin-inline: 0;
+    }
+
+    &.fig-left,
+    &.fig-center,
+    &.fig-right {
+      inline-size: fit-content;
+    }
+
+    &.fig-left {
+      margin-inline-start: 0;
+      margin-inline-end: auto;
+      text-align: left;
+    }
+
+    &.fig-center {
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+    }
+
+    &.fig-right {
+      margin-inline-start: auto;
+      margin-inline-end: 0;
+      text-align: left;
+    }
+
+    &.fig-float-left,
+    &.fig-float-right {
+      margin-block: 0.25em;
+      max-inline-size: 40%;
+      text-align: left;
+    }
+
+    &.fig-float-left {
+      float: left;
+      margin-inline-end: 1em;
+      margin-inline-start: 0;
+    }
+
+    &.fig-float-right {
+      float: right;
+      margin-inline-start: 1em;
+      margin-inline-end: 0;
+    }
+  }
+
+  figcaption,
+  .inline-caption {
+    display: block;
+    font-size: 0.9412em;
+    margin: 0.5em;
     text-align: left;
-    margin: 0.5em 0;
+    text-indent: 0;
+  }
+
+  figure.fig-center figcaption,
+  figure.fig-full figcaption,
+  .inline-figure.fig-center .inline-caption,
+  .inline-figure.fig-full .inline-caption {
+    text-align: center;
+  }
+
+  figure > img,
+  .inline-figure > img {
+    display: block;
+    max-inline-size: 100%;
+    block-size: auto;
+  }
+
+  figure.fig-full > img,
+  .inline-figure.fig-full > img {
+    inline-size: 100%;
+  }
+
+  figure.fig-center > img,
+  .inline-figure.fig-center > img {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+
+  figure.fig-right > img,
+  .inline-figure.fig-right > img {
+    margin-inline-start: auto;
+    margin-inline-end: 0;
   }
 
 
@@ -499,84 +646,5 @@ div.tei {
       }
     }
   }
-
-/*
-  p.label_margin {
-    float: right;
-    text-indent: 0 !important;
-  }
-
-  p.label_above {
-    margin-left: 60px;
-    text-indent: 0 !important;
-    margin-top: 0.2em;
-    margin-bottom: 0.4em;
-  }
-
-  span.labelledLines_before {
-    margin-left: -80px !important;
-    text-indent: 0 !important;
-    position: absolute;
-  }
-
-  span.labelledLines_after {
-    float: right;
-    text-indent: 0 !important;
-  }
-
-  span.labelledLines_before_F {
-    margin-left: -200px !important;
-    text-indent: 0 !important;
-    position: absolute;
-  }
-
-  p.l.labelledLines_before {
-    position: relative;
-    margin-left: 110px !important;
-  }
-
-  p.l.labelledLines_before.lfinal {
-    position: relative;
-    margin-left: 120px !important;
-  }
-
-  p.item_indented {
-    margin-left: 40px !important;
-    text-indent: -15px !important;
-  }
-
-  p.lIndent {
-    text-indent: -9px !important;
-  }
-
-  p.lIndentDiary {
-    text-indent: -15px !important;
-  }
-
-  p.lcenter {
-    text-align: center !important;
-  }
-
-  p.lIndent.lcenter {
-    text-align: center !important;
-  }
-
-  p.lmedial {
-    text-indent: 30px !important;
-  }
-
-  p.lfinal {
-    text-indent: 80px !important;
-  }
-
-  p.lfinal2 {
-    text-indent: 95px !important;
-  }
-
-  .footnotePoem {
-    display: block;
-    text-indent: 15px;
-  }
-*/
 
 }
