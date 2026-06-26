@@ -57,12 +57,10 @@
     margin-left: calc(-2.5 * vars.$text-fontsize-xsmall - 35px);
   }
 }
-.smallFontSize .tei.show_paragraphNumbering {
-  p.lg span {
-    &.lNumber,
-    &.pNumber {
-      margin-left: calc(-2.5 * vars.$text-fontsize-small - 35px);
-    }
+.smallFontSize .tei.show_paragraphNumbering p.lg span {
+  &.lNumber,
+  &.pNumber {
+    margin-left: calc(-2.5 * vars.$text-fontsize-small - 35px);
   }
 }
 .mediumFontSize .tei.show_paragraphNumbering p.lg span {
