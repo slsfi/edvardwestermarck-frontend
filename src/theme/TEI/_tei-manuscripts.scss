@@ -299,7 +299,18 @@ div.tei {
   }
 
   .restore {
-    text-decoration: dashed underline #028202 3px;
+    position: relative;
+    text-decoration: underline dashed 3px #028202;
+
+    .subst.stack::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      border-bottom: 3px dashed #028202;
+      pointer-events: none;
+    }
   }
 
   .transpMark {
