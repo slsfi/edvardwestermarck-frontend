@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.7.9-granska.1] – 2026-09-03
+
 ### Changed
 
-- Update TEI styling.
-- Update to base version [`2.7.9`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.7.9) from upstream, original repository.
+- Update TEI styling. ([5d161d9](https://github.com/slsfi/edvardwestermarck-frontend/commit/5d161d9ca3ce764fde4601c6ef34a39cfeac0570))
+- Update to base version [`2.7.9`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.7.9) from upstream, original repository. ([fcf7342](https://github.com/slsfi/edvardwestermarck-frontend/commit/fcf734205ffae213c91588017d9bafa304e817fc))
 
 
 
@@ -1873,6 +1877,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.7.9-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.5-granska.1...2.7.9-granska.1
 [2.7.5-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.0-granska.1...2.7.5-granska.1
 [2.7.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.6.4-granska.1...2.7.0-granska.1
 [2.6.4-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.6.3-granska.1...2.6.4-granska.1
