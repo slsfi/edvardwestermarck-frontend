@@ -8,11 +8,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [3.0.1-granska.1] – 2026-09-08
+
 ### Changed
 
-- Update to base version [`3.0.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/3.0.1) from upstream, original repository.
-- Align `custom.scss` with v3.0.0 changes.
-- Use v2 TEI-styling and restore v1 SCSS files.
+- Update to base version [`3.0.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/3.0.1) from upstream, original repository. ([703574e](https://github.com/slsfi/edvardwestermarck-frontend/commit/703574e073b86b51fda4c3dd3a49537d92e21ce2), [1d954c0](https://github.com/slsfi/edvardwestermarck-frontend/commit/1d954c0efc42479c2492eff835059b93c68d84c1))
+- Align `custom.scss` with v3.0.0 changes. ([6e99626](https://github.com/slsfi/edvardwestermarck-frontend/commit/6e996264ec6ed4e7534ad32d6072db2d37898872))
+- Use v2 TEI-styling and restore v1 SCSS files. ([b1887d3](https://github.com/slsfi/edvardwestermarck-frontend/commit/b1887d396175e8eab9aa22a8d0a0d43af119dbce))
 
 
 
@@ -1945,6 +1949,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[3.0.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.9-granska.1...3.0.1-granska.1
 [2.7.9-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.5-granska.1...2.7.9-granska.1
 [2.7.5-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.0-granska.1...2.7.5-granska.1
 [2.7.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.6.4-granska.1...2.7.0-granska.1
