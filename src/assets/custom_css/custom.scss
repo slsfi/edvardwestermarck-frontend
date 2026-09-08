@@ -310,10 +310,13 @@ main-side-menu {
 }
 
 page-home {
-  .banner.banner {
-    // border below the banner image
-    border-bottom: 4px solid #e0c64f;
+  --banner-border-bottom: 4px solid #e0c64f0;
+  --banner-title-background-color: transparent;
+  --banner-title-color: #e0c64f;
+  --banner-title-text-shadow: #000 5px 0 6px;
+  --landscape-pic-img-obj-position: left top;  /* The top left of the banner image must remain in view */
 
+  .banner.banner {
     @media screen and (min-width: 1800px) {
       height: 65%;
     }
@@ -344,29 +347,12 @@ page-home {
         }
       }
 
-      .banner-title,
-      .banner-subtitle {
-        background-color: transparent;
-        color: #e0c64f;
-        opacity: unset;
-        text-shadow: #000 5px 0 6px;
-      }
       .banner-title {
         @media screen and (min-width: 1024px) {
           font-size: calc(2.675rem + 1.75vw);
         }
       }
     }
-
-    /* The top left of the banner image must remain in view */
-    .landscape-picture img {
-      object-position: left top;
-    }
-  }
-
-  .text-content div.site-presentation.markdown.markdown {
-    max-width: 750px;
-    text-align: left;
   }
 }
 
