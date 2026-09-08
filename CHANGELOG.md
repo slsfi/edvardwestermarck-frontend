@@ -8,11 +8,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [3.0.1-production.1] – 2026-09-08
+
 ### Changed
 
-- Update to base version [`3.0.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/3.0.1) from upstream, original repository.
-- Align `custom.scss` with v3.0.0 changes.
-- Use v2 TEI-styling and restore v1 SCSS files.
+- Update to base version [`3.0.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/3.0.1) from upstream, original repository. ([6c65069](https://github.com/slsfi/edvardwestermarck-frontend/commit/6c6506953781cd9877d88c8070a174891353bd09))
+- Align `custom.scss` with v3.0.0 changes. ([279b5dd](https://github.com/slsfi/edvardwestermarck-frontend/commit/279b5ddfbb78ba5cc6944c0cc9026875eb93f19f))
+- Use v2 TEI-styling and restore v1 SCSS files. ([f63fba2](https://github.com/slsfi/edvardwestermarck-frontend/commit/f63fba289b9223678fd8454b6e51389400975b73))
 
 
 
@@ -1778,6 +1782,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[3.0.1-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.9-production.1...3.0.1-production.1
 [2.7.9-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.5-production.1...2.7.9-production.1
 [2.7.5-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.0-production.1...2.7.5-production.1
 [2.7.0-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.6.5-production.1...2.7.0-production.1
