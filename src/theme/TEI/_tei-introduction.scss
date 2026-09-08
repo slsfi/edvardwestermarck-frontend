@@ -72,15 +72,6 @@ page-introduction {
   /* Headings in intro TOC */
   div#toc-text {
 
-    ul {
-      list-style-type: none;
-    }
-
-    ul, li {
-      margin: 0;
-      padding: 0;
-    }
-
     h1.title,
     h2.heading2,
     h3.heading3,
@@ -94,9 +85,7 @@ page-introduction {
       color: var(--intro-toc-text-color);
     }
 
-    h1.title,
-    ul > li a {
-      display: inline-block;
+    h1.title {
       font-size: 1.1875rem;
       font-weight: 700;
       margin: 1.2em 0 0.6em 0;
@@ -104,30 +93,24 @@ page-introduction {
       letter-spacing: 0.02em;
     }
 
-    h2.heading2,
-    ul > li > ul > li a {
+    h2.heading2 {
       font-size: 1rem;
       font-weight: 700;
       margin: 1.2em 0 0.6em 0;
-      text-transform: none;
-      letter-spacing: normal;
     }
 
-    h3.heading3,
-    ul > li > ul > li > ul > li a {
+    h3.heading3 {
       font-size: 1rem;
       margin: 0.1em 0 0.4em 0;
     }
 
-    h4.heading4,
-    ul > li > ul > li > ul > li > ul > li a {
+    h4.heading4 {
       font-size: 1rem;
       margin: 0.1em 0 0.4em 0;
       padding-left: 1.75em;
     }
 
-    h5.heading5,
-    ul > li > ul > li > ul > li > ul > li > ul > li a {
+    h5.heading5 {
       font-size: 0.875rem;
       margin: 0.5em 0 0.457em 0;
       padding-left: 4em;
@@ -148,9 +131,10 @@ page-introduction {
 
     a {
       text-decoration: none;
+      transition: opacity 0.2s;
 
       &:hover {
-          text-decoration: underline;
+          opacity: 0.6;
       }
     }
   }
@@ -162,45 +146,37 @@ page-introduction {
 
   /* Headings in intro text */
   div.tei.tei {
-    header,
-    hgroup {
+    header {
       margin: 4em 0;
+    }
 
-      p {
-        text-align: center;
-        line-height: 1.35;
-        text-indent: 0;
+    header p {
+      text-align: center;
+      line-height: 1.35;
+      text-indent: 0;
+    }
 
-        &[role="doc-subtitle"] {
-          font-size: 1.2942em;
-          font-style: italic;
-          margin: 0.75em 0;
-        }
+    header p[role="doc-subtitle"] {
+      font-size: 1.2942em;
+      font-style: italic;
+      margin: 0.75em 0;
+    }
 
-        &.writer,
-        &.byline {
-          font-size: 1.11765em;
-          margin: 1.75em 0;
-          text-transform: uppercase;
-          letter-spacing: 0.05em;
-        }
-
-        &.argument {
-          font-size: 1em;
-          text-align: left;
-          margin-top: 3em;
-        }
-      }
-
-      h1.title > span.writer {
-        font-size: 0.5556em;
-        font-variant: normal;
-        font-weight: normal;
-      }
+    header p.writer {
+      font-size: 1em;
+      margin: 1.75em 0;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
     }
 
     h1.title + p.writer {
       margin: 1em 0;
+    }
+
+    header h1.title > span.writer {
+      font-size: 0.5556em;
+      font-variant: normal;
+      font-weight: normal;
     }
 
     h1.title,
