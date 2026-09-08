@@ -72,56 +72,37 @@ reading-text {
   div.tei {
     transition: padding-left linear 0.2s;
 
-    .deletion {
-      display: none;
-    }
-
     /*
     Tooltip triggers
     */
-    &.clickable-illustrations .est_figure_graphic {
-      cursor: pointer;
-    }
-
     .unclear.tooltiptrigger,
     .gap.tooltiptrigger,
     .marginalia.tooltiptrigger,
     .revision.tooltiptrigger,
-    .tooltiptrigger > .keyword_symbol {
-      cursor: help;
+    .tooltiptrigger > .keyword_symbol,
+    &.clickable-illustrations .est_figure_graphic {
+      cursor: pointer;
     }
 
-    /* OVERRIDES TO REND VALUES */
+    span.dashUnderline {
+      font-style: italic;
+      border-bottom: none;
+    }
+
+    .encreasedSize {
+      font-style: italic;
+      font-size: 100%;
+    }
+
+    span.uppercase,
+    span.uppercaseDiary {
+      font-variant: small-caps;
+      text-transform: none;
+    }
+
     .encircled {
+      font-style: italic;
       border: none;
-      font-style: italic;
-    }
-    .expanded {
-      font-style: italic;
-      letter-spacing: normal;
-    }
-    .larger {
-      font-size: 1em;
-      font-style: italic;
-    }
-    .underline,
-    .underlineDashed,
-    .underlineDouble {
-      font-style: italic;
-      text-decoration: none;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      .underline,
-      .underlineDashed,
-      .underlineDouble {
-        font-style: inherit;
-      }
     }
 
     img.hide-illustration {

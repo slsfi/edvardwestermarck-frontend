@@ -5,38 +5,24 @@
 @use "sass:math";
 @use "../sass_variables" as vars;
 
-.pb {
-  &.edition,
-  &.orig {
+.pb_orig,
+.pb_edition {
     display: none;
-  }
 }
 
-.pb + .pb {
-  padding-left: 0.2353em;
+div.tei.show_pageBreakOriginal .pb_orig,
+div.tei.show_pageBreakEdition .pb_edition {
+    font-family: var(--font-stack-app-base);
+    line-height: 1;
+    display: inline;
 }
 
-div.tei.show_pageBreakEdition .pb.edition,
-div.tei.show_pageBreakOriginal .pb.orig {
-  font-family: var(--font-stack-app-base);
-  display: revert;
+div.tei.show_pageBreakOriginal .pb_orig {
+    color: var(--pageBreakOriginal-color, #b32fa0);
 }
 
-div.tei.show_pageBreakEdition div.pb.edition,
-div.tei.show_pageBreakOriginal div.pb.orig {
-  display: inline-block;
-}
-
-div.tei.show_pageBreakEdition .pb.edition {
-  color: var(--pageBreakEdition-color, #8f6b28);
-}
-
-div.tei.show_pageBreakOriginal .pb.orig {
-  color: var(--pageBreakOriginal-color, #b32fa0);
-
-  &.facs {
-    color: #0000ff;
-  }
+div.tei.show_pageBreakEdition .pb_edition {
+    color: var(--pageBreakEdition-color, #8f6b28);
 }
 
 /* Size of page numberings at different font sizes. */

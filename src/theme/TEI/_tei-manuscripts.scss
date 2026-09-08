@@ -6,7 +6,7 @@
 @use "../sass_variables" as vars;
 
 /* Size of the esh-symbol in manuscripts. */
-div.tei.teiManuscript .immediate_symbol img {
+div.tei .teiManuscript.immediate_symbol img {
   display: inline-block;
   height: auto;
   width: 0.9em; // default
@@ -58,14 +58,10 @@ div.tei.teiManuscript .immediate_symbol img {
 }
 
 /* Size of the hand-symbol in manuscripts. */
-div.tei.teiManuscript img.handSymbol {
+div.tei img.teiManuscript.handSymbol {
   display: inline-block;
   height: auto;
   width: 1em; // default
-
-  &.delSpan {
-    background-color: transparent;
-  }
 }
 
 .miniFontSize div.tei img.teiManuscript.handSymbol {
@@ -114,218 +110,18 @@ div.tei.teiManuscript img.handSymbol {
 }
 
 div.tei {
-  &.teiManuscript {
-    .tooltiptrigger.ttMs,
-    .tooltiptrigger.tooltipMs {
-      cursor: help;
-    }
-
-    p {
-      line-height: 2em;
-      position: relative;
-    }
-
-    .lg,
-    .poem.incorp .lg {
-      margin-bottom: 2em;
-      margin-top: 2em;
-    }
-
-    img {
-      width: 0.9412em;
-      display: inline;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      line-height: 2;
-      text-align: left;
-
-      &.title {
-        font-variant: normal;
-      }
-
-      &.part {
-        font-variant: normal;
-      }
-
-      &.suite {
-        font-style: normal;
-      }
-
-      &.chapter {
-        font-style: normal;
-      }
-
-      &.sub {
-        font-weight: 400;
-      }
-
-      &.sub2 {
-        font-style: normal;
-      }
-
-      &.sub3 {
-        font-weight: 400;
-      }
-    }
+  .space {
+    color: #990202;
   }
 
-  .add,
-  .addSpan {
-    color: #2929ca;
+  .substitution {
+    color: #0000a1;
   }
 
-  .hand {
-    color: #008100;
+  .tei_substitution_zts {
+    color: #0000a1;
   }
 
-  .addAbove {
-    /* This will shift the text upwards without changing the height
-       of the line. */
-    position: relative;
-    top: -0.7059em;
-  }
-  .addSublinear {
-    /* This will shift the text downwards and change the height of the
-       line. The reason we don't use position:relative here is that
-       otherwise text above the line on the next line might overlap
-       with the sublinear text. */
-    vertical-align: -0.706em;
-  }
-
-  .subst {
-    color: #2929ca;
-    text-indent: 0;
-
-    /*
-    border-left: 2px solid #d00b0b;
-    border-right: 2px solid #d00b0b;
-    padding: 0 0.1177em;
-    */
-
-    /* Added text is above or below the line */
-    &.stack {
-      align-items: flex-start;
-      display: inline-flex;
-      flex-direction: column-reverse;
-      vertical-align: bottom;
-    }
-
-    &.sublinearStack {
-      flex-direction: column;
-      vertical-align: baseline;
-    }
-  }
-  .substDel {
-    color: initial;
-  }
-  .substAdd {
-    .substDel {
-      color: #2929ca;
-    }
-
-    &.addAbove,
-    &.addSublinear {
-      bottom: -0.353em;
-      line-height: 1;
-      top: initial;
-      vertical-align: initial;
-    }
-
-    &.addAbove + .substAdd.addAbove {
-      bottom: -0.11765em;
-    }
-
-    &.addAbove .substAdd.addAbove {
-      bottom: 0.11765em;
-    }
-
-    &.addAbove.substDelHasAddAbove {
-      bottom: 0.25em;
-      line-height: 2;
-    }
-
-    &.addAbove .addAbove:not(.substAdd) {
-      line-height: 2;
-    }
-  }
-
-  .altSeg {
-    align-items: flex-start;
-    display: inline-flex;
-    flex-direction: column-reverse;
-    text-indent: 0;
-    vertical-align: bottom;
-
-    .addChoice {
-      bottom: -0.353em;
-      line-height: 1;
-      top: initial;
-    }
-  }
-
-  .deletion span {
-    text-decoration: line-through;
-  }
-
-  .deletion.hand,
-  .deletion.hand span,
-  .delSpanHand.strikethrough,
-  .delSpanHand.strikethrough span {
-    text-decoration: line-through;
-    text-decoration-color: #008100;
-    text-decoration-thickness: 2px;
-  }
-
-  .deletion.hand {
-    color: inherit; /* Dubbelkolla att det blir rätt med detta, Trollvinter facs 37 t.ex. -> blir inte rätt*/
-
-    &.substDel {
-      color: initial;
-    }
-  }
-
-  .delSpan {
-    background-color: #c6c6c6;
-
-    &.delSpanHand {
-      background-color: #d3c0a4;
-    }
-  }
-
-  .restore {
-    position: relative;
-    text-decoration: underline dashed 3px #028202;
-
-    .subst.stack::after {
-      content: '';
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      border-bottom: 3px dashed #028202;
-      pointer-events: none;
-    }
-  }
-
-  .transpMark {
-    color: #2929ca;
-    font-size: 0.9412em;
-    line-height: 0.5em;
-    vertical-align: 60%;
-  }
-
-  .readInstruction {
-    display: inline-block;
-    font-size: 0.8824em;
-  }
-
-  /*
   .alternative {
     position: relative;
   }
@@ -658,6 +454,92 @@ div.tei {
     top: -1.2em;
     left: 0;
   }
-    */
 
+  &.teiManuscript {
+
+    .tooltiptrigger.ttMs,
+    .tooltiptrigger.tooltipMs {
+      cursor: help;
+    }
+
+    span.underline {
+      border-bottom: 1px solid black;
+      font-style: normal;
+    }
+
+    span.underline2 {
+      border-bottom: 3px double black;
+      font-style: normal;
+      text-decoration: none;
+    }
+
+    /* Is this used in ms? */
+    span.lemma {
+      background-color: #c1bac1;
+    }
+
+    p {
+      line-height: 180%;
+      position: relative;
+      text-indent: 1.7647em;
+    }
+
+    h4 {
+      margin: 1em 0 .5em !important;
+    }
+
+    h3 {
+      margin: 1.1em 0 .6em;
+      font-variant: normal;
+      line-height: 1.45;
+    }
+  }
+
+  p.teiManuscript.strofe[class*="lg"] {
+    line-height: 180%;
+    text-indent: 0 !important;
+  }
+}
+
+manuscripts {
+  div.tei {
+
+    /*
+    Doodles are not clickable in manuscripts since they
+    can't be opened in an illustrations-view from there, but
+    they should always be visible there.
+    */
+    img.teiManuscript.doodle {
+      cursor: default;
+      display: inline-block !important;
+    }
+
+    span.uppercase {
+      text-transform: uppercase;
+      font-variant: normal;
+    }
+
+    span.dashUnderline {
+      border-bottom: 1px dashed black;
+    }
+
+    .encircled {
+      border: 1px solid gray;
+    }
+
+    .encreasedSize {
+      font-size: 120%;
+    }
+
+    p.underline,
+    h3.underline {
+      font-style: normal;
+      text-decoration: underline;
+    }
+
+    img {
+      width: 0.9rem;
+      display: inline;
+    }
+  }
 }
