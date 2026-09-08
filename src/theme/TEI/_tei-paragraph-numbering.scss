@@ -2,94 +2,39 @@
  * TEI PARAGRAPH NUMBERING
  * Styles for paragraph and line numberings.
  */
- @use "../sass_variables" as vars;
 
-.tei span {
-  &.lNumber,
-  &.pNumber {
+.tei span.lNumber,
+.tei span.paragraph_number {
     display: none;
-  }
 }
 
-.tei.show_paragraphNumbering span {
-  &.lNumber,
-  &.pNumber {
-    display: block;
-    position: absolute;
-    margin-left: -35px;
-    text-align: left;
-    width: 30px;
-    font-family: var(--font-stack-app-base);
-    font-size: 0.6875rem;
-    text-indent: 0;
-    font-style: normal !important;
-    font-weight: normal !important;
-  }
+.tei.show_paragraphNumbering span.paragraph_number,
+.tei.show_paragraphNumbering span.lNumber {
+  display: block;
+  position: absolute;
+  margin-left: -35px;
+  text-align: left;
+  width: 30px;
+  font-family: var(--font-stack-app-base);
+  font-size: 0.6875rem;
+  text-indent: 0;
+  font-style: normal !important;
+  font-weight: normal !important;
 }
 
-.miniFontSize .tei.show_paragraphNumbering p.lg span {
-  &.lNumber,
-  &.pNumber {
-    margin-left: calc(-2.5 * vars.$text-fontsize-mini - 35px);
-  }
-}
-.tinyFontSize .tei.show_paragraphNumbering p.lg span {
-  &.lNumber,
-  &.pNumber {
-    margin-left: calc(-2.5 * vars.$text-fontsize-tiny - 35px);
-  }
-}
-.xxxsmallFontSize .tei.show_paragraphNumbering p.lg span {
-  &.lNumber,
-  &.pNumber {
-    margin-left: calc(-2.5 * vars.$text-fontsize-xxxsmall - 35px);
-  }
-}
-.xxsmallFontSize .tei.show_paragraphNumbering p.lg span {
-  &.lNumber,
-  &.pNumber {
-    margin-left: calc(-2.5 * vars.$text-fontsize-xxsmall - 35px);
-  }
-}
-.xsmallFontSize .tei.show_paragraphNumbering p.lg span {
-  &.lNumber,
-  &.pNumber {
-    margin-left: calc(-2.5 * vars.$text-fontsize-xsmall - 35px);
-  }
-}
-.smallFontSize .tei.show_paragraphNumbering p.lg span {
-  &.lNumber,
-  &.pNumber {
-    margin-left: calc(-2.5 * vars.$text-fontsize-small - 35px);
-  }
-}
-.mediumFontSize .tei.show_paragraphNumbering p.lg span {
-  &.lNumber,
-  &.pNumber {
-    margin-left: calc(-2.5 * vars.$text-fontsize-medium - 35px);
-  }
-}
-.largeFontSize .tei.show_paragraphNumbering p.lg span {
-  &.lNumber,
-  &.pNumber {
-    margin-left: calc(-2.5 * vars.$text-fontsize-large - 35px);
-  }
-}
-.xlargeFontSize .tei.show_paragraphNumbering p.lg span {
-  &.lNumber,
-  &.pNumber {
-    margin-left: calc(-2.5 * vars.$text-fontsize-xlarge - 35px);
-  }
+.tei.show_paragraphNumbering span.lNumber,
+.tei.show_paragraphNumbering p.parIndent span.paragraph_number,
+.tei.show_paragraphNumbering p.hangingIndent span.paragraph_number,
+.tei.show_paragraphNumbering blockquote span.paragraph_number {
+  margin-left: -65px;
 }
 
-.tei.tei.show_paragraphNumbering {
-  blockquote {
-    p span {
-      &.pNumber {
-        margin-left: -65px;
-      }
-    }
-  }
+.tei.show_paragraphNumbering p.item_indented span.paragraph_number {
+  margin-left: -75px;
+}
+
+.tei.show_paragraphNumbering p.labelledLines_before span.lNumber {
+  margin-left: -145px;
 }
 
 /*

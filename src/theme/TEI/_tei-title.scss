@@ -5,17 +5,8 @@
 
 page-title {
   div.tei {
-    hgroup {
-      margin: 2.5em 0 7em 0;
-    }
-
-    .title {
-      letter-spacing: 0.02em;
-    }
-
     .title,
     .subtitle,
-    p[role="doc-subtitle"],
     .collectiontitle {
       font-size: 2.2353em;
       font-weight: normal;
@@ -24,11 +15,8 @@ page-title {
       text-transform: uppercase;
     }
 
-    .subtitle,
-    p[role="doc-subtitle"] {
+    .subtitle {
       font-size: 1.4706em;
-      font-style: normal;
-      letter-spacing: 0.02em;
       margin-top: 1em;
     }
 
@@ -55,16 +43,6 @@ page-title {
       font-weight: normal;
       line-height: 1.2;
       text-align: center;
-    }
-
-    .byline {
-      font-size: 1.2942em;
-      margin-bottom: 1em;
-      text-align: center;
-
-      .smaller {
-        font-size: 0.7727em;
-      }
     }
   }
 }
