@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Added Reuter-letters collection to config.
+
 
 
 ## [3.0.1-granska.1] – 2026-09-08

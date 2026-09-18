@@ -69,7 +69,7 @@ export const config: Config = {
     replaceImageAssetsPaths: false,
     enableLegacyIDs: false,
     enableMathJax: false,
-    firstTextItem: { 1: "1_148", 2: "2_1" },
+    firstTextItem: { 1: "1_148", 2: "2_1", 37: "37_392" },
     frontMatterPages: {
       cover: false,
       title: true,
@@ -78,16 +78,16 @@ export const config: Config = {
     },
     frontMatterPageDisabled: {
       cover: [],
-      title: [1, 2],
+      title: [1, 2, 37],
       foreword: [],
-      introduction: [1, 2]
+      introduction: [1, 2, 37]
     },
     highlightSearchMatches: true,
     inlineIllustrations: [],
     mediaCollectionMappings: {},
     order: [
       [1],
-      [2],
+      [2, 37],
       [3, 4]
     ]
   },
