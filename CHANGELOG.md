@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [3.0.1-granska.2] – 2026-09-18
+
 ### Changed
 
-- Added Reuter-letters collection to config.
+- Added Reuter-letters collection to config. ([df1d458](https://github.com/slsfi/edvardwestermarck-frontend/commit/df1d458a3acc42de3e3b72c8b689ca780fc84c34))
 
 
 
@@ -1953,6 +1957,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[3.0.1-granska.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/3.0.1-granska.1...3.0.1-granska.2
 [3.0.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.9-granska.1...3.0.1-granska.1
 [2.7.9-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.5-granska.1...2.7.9-granska.1
 [2.7.5-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.0-granska.1...2.7.5-granska.1
