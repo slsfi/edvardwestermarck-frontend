@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [3.1.1-granska.1] – 2026-10-05
+
 ### Changed
 
-- Update to base version [`3.1.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/3.1.1) from upstream, original repository.
+- Update to base version [`3.1.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/3.1.1) from upstream, original repository. ([7ab3203](https://github.com/slsfi/edvardwestermarck-frontend/commit/7ab32034c4c2d3fd6596bfc5378780c76b628d95))
 
 
 
@@ -2027,6 +2031,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[3.1.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/3.0.1-granska.2...3.1.1-granska.1
 [3.0.1-granska.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/3.0.1-granska.1...3.0.1-granska.2
 [3.0.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.9-granska.1...3.0.1-granska.1
 [2.7.9-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.5-granska.1...2.7.9-granska.1
