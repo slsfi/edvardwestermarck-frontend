@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [4.0.0-production.1] – 2026-10-19
+
 ### Changed
 
-- Update to base version [`4.0.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.0.0) from upstream, original repository.
+- Update to base version [`4.0.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.0.0) from upstream, original repository. ([2f4ea1d](https://github.com/slsfi/edvardwestermarck-frontend/commit/2f4ea1d25f2f282d579e47ce3a4431a1a624cb75), [884fa66](https://github.com/slsfi/edvardwestermarck-frontend/commit/884fa66c7b8a1022dfe6868a85b303ea65ee823d))
 
 
 
@@ -1919,6 +1923,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[4.0.0-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/3.1.1-production.1...4.0.0-production.1
 [3.1.1-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/3.0.1-production.1...3.1.1-production.1
 [3.0.1-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.9-production.1...3.0.1-production.1
 [2.7.9-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/2.7.5-production.1...2.7.9-production.1
