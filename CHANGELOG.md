@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [4.2.1-granska.1] – 2026-11-23
+
 ### Changed
 
-- Update to base version [`4.2.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.2.1) from upstream, original repository.
-- Page article global style overrides.
+- Update to base version [`4.2.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.2.1) from upstream, original repository. ([dbd64e1](https://github.com/slsfi/edvardwestermarck-frontend/commit/dbd64e1b9a4aa4d6798315ddc0f079628bc87d00))
+- Page article global style overrides. ([40dd681](https://github.com/slsfi/edvardwestermarck-frontend/commit/40dd6815c63c48189412cdc67dea050c85558278))
 
 
 
@@ -2190,6 +2194,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[4.2.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/4.1.0-granska.1...4.2.1-granska.1
 [4.1.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/4.0.0-granska.1...4.1.0-granska.1
 [4.0.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/3.1.1-granska.1...4.0.0-granska.1
 [3.1.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/3.0.1-granska.2...3.1.1-granska.1
