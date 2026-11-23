@@ -432,11 +432,7 @@ page-elastic-search {
 }
 
 page-article {
-  .markdown {
-    h2 {
-      margin-top: 2em;
-    }
-  }
+  --article-blockquote-accent-rgb: 44, 105, 191;
 
   .article-toc-list {
     .article-toc-level-2 {
