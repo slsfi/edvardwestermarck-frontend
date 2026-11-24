@@ -42,5 +42,15 @@ export const collectionCovers: CollectionCovers = {
       imageURL: 'assets/images/covers/cover_six_years_in_morocco.jpg',
       imageAltText: 'Cover image for Six Years in Morocco'
     }
+  },
+  37: {
+    sv: {
+      imageURL: 'assets/images/covers/cover_korrespondens_reuter.jpg',
+      imageAltText: 'Omslag till Korrespondens med Reuter'
+    },
+    en: {
+      imageURL: 'assets/images/covers/cover_korrespondens_reuter.jpg',
+      imageAltText: 'Cover image for Correspondence with Reuter'
+    }
   }
 };
