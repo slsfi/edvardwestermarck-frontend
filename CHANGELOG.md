@@ -8,13 +8,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [4.2.2-granska.1] – 2026-11-25
+
 ### Added
 
-- Collection cover image for correspondence with Reuter.
+- Collection cover image for correspondence with Reuter. ([a1050b3](https://github.com/slsfi/edvardwestermarck-frontend/commit/a1050b3ccc70a0fd78307a1a2f3b804d738d36dc))
 
 ### Changed
 
-- Update to base version [`4.2.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.2.2) from upstream, original repository.
+- Update to base version [`4.2.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.2.2) from upstream, original repository. ([5e973d3](https://github.com/slsfi/edvardwestermarck-frontend/commit/5e973d332bfb50a991dfcc5db1fd2b484276f396))
 
 
 
@@ -2221,6 +2225,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[4.2.2-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/4.2.1-granska.1...4.2.2-granska.1
 [4.2.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/4.1.0-granska.1...4.2.1-granska.1
 [4.1.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/4.0.0-granska.1...4.1.0-granska.1
 [4.0.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/3.1.1-granska.1...4.0.0-granska.1
