@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [4.2.2-granska.2] – 2026-11-26
+
 ### Fixed
 
-- Top margin for dateline after byline in hgroups.
+- Top margin for dateline after byline in hgroups. ([e0cc727](https://github.com/slsfi/edvardwestermarck-frontend/commit/e0cc727a1c43be23d79778c9859dd9d8486c74db))
 
 
 
@@ -2229,6 +2233,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[4.2.2-granska.2]: https://github.com/slsfi/edvardwestermarck-frontend/compare/4.2.2-granska.1...4.2.2-granska.2
 [4.2.2-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/4.2.1-granska.1...4.2.2-granska.1
 [4.2.1-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/4.1.0-granska.1...4.2.1-granska.1
 [4.1.0-granska.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/4.0.0-granska.1...4.1.0-granska.1
