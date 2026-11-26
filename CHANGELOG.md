@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Fixed
+
+- Top margin for dateline after byline in hgroups.
+
 
 
 ## [4.2.2-granska.1] – 2026-11-25
