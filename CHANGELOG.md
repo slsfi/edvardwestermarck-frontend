@@ -12,6 +12,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 - Collection cover image for correspondence with Reuter.
 
+### Fixed
+
+- Top margin for dateline after byline in hgroups.
+
 
 
 ## [4.2.1-production.1] – 2026-11-23

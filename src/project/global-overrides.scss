@@ -448,3 +448,11 @@ page-introduction {
     }
   }
 }
+
+div.tei {
+  hgroup {
+    .byline + .dateline {
+      margin-top: 1em;
+    }
+  }
+}
