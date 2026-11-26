@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Enable the Correspondence with Julio Reuter collection in the config.
+
 
 
 ## [4.2.2-production.1] – 2026-11-26
