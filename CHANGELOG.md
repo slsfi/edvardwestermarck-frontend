@@ -8,17 +8,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [4.2.2-production.1] – 2026-11-26
+
 ### Added
 
-- Collection cover image for correspondence with Reuter.
+- Collection cover image for correspondence with Reuter. ([e049c49](https://github.com/slsfi/edvardwestermarck-frontend/commit/e049c494821222ffdc597cbf137346cb45a7c469))
 
 ### Changed
 
-- Update to base version [`4.2.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.2.2) from upstream, original repository.
+- Update to base version [`4.2.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.2.2) from upstream, original repository. ([4b3e5e6](https://github.com/slsfi/edvardwestermarck-frontend/commit/4b3e5e6f3138c1dfc8e0c25f6093b9f6e5b7944b))
 
 ### Fixed
 
-- Top margin for dateline after byline in hgroups.
+- Top margin for dateline after byline in hgroups. ([ef5d2b9](https://github.com/slsfi/edvardwestermarck-frontend/commit/ef5d2b982ab00f3d28bd42b176f31be9e1ba7dc9))
 
 
 
@@ -2050,6 +2054,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[4.2.2-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/4.2.1-production.1...4.2.2-production.1
 [4.2.1-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/4.1.0-production.1...4.2.1-production.1
 [4.1.0-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/4.0.0-production.1...4.1.0-production.1
 [4.0.0-production.1]: https://github.com/slsfi/edvardwestermarck-frontend/compare/3.1.1-production.1...4.0.0-production.1
